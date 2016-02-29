@@ -1,0 +1,521 @@
+Show
+    Class "Quest Items"
+	SetTextColor 241 196 15
+	SetBorderColor 241 196 15
+	
+Show
+	Rarity Normal
+    #BaseType "Occultist's Vestment" "Glorious Plate" "Sorcerer Boots" "Sapphire Flask"
+	BaseType "Sapphire Flask" "Gavel" "Rock Breaker"
+    SetBorderColor 150 0 150
+	SetFontSize 35
+	
+Show
+	Rarity Unique
+	BaseType "Occultist's Vestment" "Glorious Plate" "Judgement Staff" "Prophecy Wand" "Siege Axe" "Slaughter Knife" "Sapphire Flask" "Gold Ring" "Desert Brigandine"
+	SetFontSize 45
+	SetBorderColor 175 96 37
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 2 300
+	
+#Show
+#	Rarity Rare
+#	ItemLevel > 74
+#	SetBorderColor 255 0 0 100
+
+#Show
+#	Rarity Normal
+#    BaseType "Full Wyrmscale"
+#	ItemLevel > 50
+#    SetBorderColor 150 0 150
+	
+Show
+Rarity Normal
+    Class "Fishing Rod" 
+    SetTextColor 255 0 255
+    SetBorderColor 30 150 180
+    SetBackgroundColor 0 255 0
+	SetFontSize 45
+    PlayAlertSound 5 300
+
+Show
+    BaseType "Mirror of Kalandra" "Rhoa Feather" "Eternal Orb" "Exalted Orb"
+    SetTextColor 255 0 255
+    SetBackgroundColor 0 255 0
+    SetBorderColor 255 255 255
+	SetFontSize 45
+    PlayAlertSound 4 300
+
+
+Show
+    BaseType "Gemcutter's Prism" "Regal Orb" "Divine Orb" "Chaos Orb"
+    SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+    PlayAlertSound 1 300
+
+
+Show
+    BaseType "Vaal Orb"
+	SetBorderColor 231 76 60
+	SetTextColor 200 158 130
+    
+Show
+    BaseType "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
+    SetBorderColor 170 158 130
+Show
+	BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Chromatic Orb" "Armourer's Scrap" "Alchemy Shard" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Chance" "Blessed Orb" 
+
+Show
+    Class "Divination"
+    BaseType "Avenger" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic" "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing" "The Artist" "The Aesthete" "Bowyer's Dream" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist" "The Vast" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy"
+    SetFontSize 45
+    SetBorderColor 255 0 175
+    SetBackgroundColor 255 255 255 255
+    SetTextColor 255 0 175
+    PlayAlertSound 6 300
+	
+Show
+	Class "Divination Card"
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+
+
+Show
+    LinkedSockets 6
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 142 68 255
+	SetFontSize 45
+    PlayAlertSound 1 300
+Show
+    LinkedSockets 5
+	SetFontSize 40
+    SetTextColor 176 72 248
+	SetBorderColor 176 72 248
+	
+Show
+    Sockets 6
+    SetBorderColor 142 68 255
+	SetFontSize 38
+	
+Show
+    Class Gem
+    BaseType "Vaal"
+    SetBorderColor 220 30 30
+	SetTextColor 46 204 113
+	
+Show
+    Class Gem
+    BaseType "Empower" "Enhance" "Enlighten" "Portal"
+    SetBorderColor 200 120 80
+	SetFontSize 40
+	SetTextColor 46 204 113
+	
+Show
+    Class Gem
+    Quality > 0
+    SetBorderColor 46 204 113
+    SetTextColor 46 204 113
+	
+Show
+    Class Gem
+    SetTextColor 46 204 113
+
+Show
+    Rarity Unique
+    Class Jewel
+    SetBorderColor 175 96 37
+
+Show
+    Rarity Rare
+    Class Jewel
+    SetBorderColor 255 255 100
+    SetTextColor 255 255 100
+	
+
+Show 
+	BaseType "Sapphire Flask" "Granite Flask" "Large Hybrid Flask" "Topaz Flask" "Ruby Flask"
+	Rarity Unique
+	SetBorderColor 175 96 37
+	SetBackgroundColor 0 0 0 255
+	SetFontSize 40
+Show 
+	BaseType "Flask"
+	Rarity Unique
+	SetBorderColor 175 96 37
+	SetFontSize 35
+
+Show
+    Rarity Magic
+    Class Jewel
+    SetBorderColor 41 128 185
+    SetTextColor 41 128 185
+Show
+    BaseType "Flask"
+    Quality = 20
+	SetBorderColor 0 200 200
+Show
+    BaseType "Flask"
+    Quality >= 15
+	SetBorderColor 170 170 170	
+Show
+	BaseType "Granite"
+	SetFontSize 25
+Show
+	BaseType "Flask"
+	SetFontSize 20
+
+#---------------------------------------------------- 
+# 0202 # MAP TIER LIST 
+#---------------------------------------------------- 
+
+Show # Maps:Unique 
+    Class Maps 
+    Rarity Unique 
+    SetFontSize 40 
+    #PlayAlertSound 6 300
+
+Show # Maps:T1 
+    Class Maps 
+    BaseType "Crypt" "Desert" "Dunes" "Dungeon" "Grotto" "Pit Map" "Tropical Island" 
+    SetFontSize 34 
+	SetBackgroundColor 200 200 200
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T2 
+    Class Maps 
+    BaseType "Arcade" "Cemetery" "Channel" "Mountain Ledge" "Sewer" "Thicket" "Wharf" 
+    SetFontSize 35 
+	SetBackgroundColor 210 210 210
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T3 
+    Class Maps 
+    BaseType "Ghetto" "Mud Geyser" "Museum" "Quarry" "Reef" "Spider Lair" "Vaal Pyramid" 
+    SetFontSize 36 
+	SetBackgroundColor 220 220 220
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T4 
+    Class Maps 
+    BaseType "Arena" "Overgrown Shrine" "Promenade" "Shore" "Spider Forest" "Tunnel" "Phantasmagoria" 
+    SetFontSize 37 
+	SetBackgroundColor 230 230 230
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T5 
+    Class Maps 
+    BaseType "Bog Map" "Coves" "Graveyard" "Pier" "Underground Sea" "Villa Map" 
+    SetFontSize 38 
+	SetBackgroundColor 240 240 240
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T6 
+    Class Maps 
+    BaseType "Arachnid" "Catacomb" "Colonnade" "Dry Woods" "Strand" "Temple" 
+    SetFontSize 39 
+	SetBackgroundColor 255 255 255
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T7 
+    Class Maps 
+    BaseType "Jungle Valley" "Terrace" "Mine" "Torture Chamber" "Waste Pool" 
+    SetFontSize 40 
+	SetBackgroundColor 161 116 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T8 
+    Class Maps 
+    BaseType "Canyon" "Cells" "Dark Forest" "Dry Peninsula" "Orchard" 
+    SetFontSize 41 
+	SetBackgroundColor 181 136 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T9 
+    Class Maps 
+    BaseType "Arid Lake" "Gorge" "Residence" "Underground River" "Malformation" 
+    SetFontSize 41 
+	SetBackgroundColor 201 156 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T10 
+    Class Maps 
+    BaseType "Bazaar" "Necropolis" "Plateau" "Volcano" 
+    SetFontSize 42 
+	SetBackgroundColor 221 176 5
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T11 
+    Class Maps 
+    BaseType "Academy" "Crematorium" "Precinct" "Springs" 
+    SetFontSize 42 
+	SetBackgroundColor 241 196 15
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 3 200 
+
+Show # Maps:T12 
+    Class Maps 
+    BaseType "Arsenal" "Overgrown Ruin" "Shipyard" "Village Ruin" 
+    SetFontSize 43 
+	SetBackgroundColor 152 17 3
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
+
+Show # Maps:T13 
+    Class Maps 
+    BaseType "Courtyard" "Excavation" "Wasteland" "Waterways" 
+    SetFontSize 44 
+	SetBackgroundColor 172 37 23
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
+
+Show # Maps:T14 
+    Class Maps 
+    BaseType "Shrine" "Conservatory" "Palace"
+    SetFontSize 45 
+	SetBackgroundColor 192 57 43
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
+
+Show # Maps:T15 
+    Class Maps 
+    BaseType "Abyss" "Colosseum" "Core"
+    SetFontSize 45 
+    PlayAlertSound 3 300 
+    SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+    SetBackgroundColor 255 57 43
+	
+#Show
+#    Class Maps
+#    PlayAlertSound 2
+
+Show 
+    Class Maps
+	Rarity Normal
+	SetBackgroundColor 189 195 199
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+Show
+	Class Maps
+	Rarity Magic
+	SetBackgroundColor 52 152 219
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+Show
+	Class Maps
+	Rarity Rare
+	SetBackgroundColor 241 196 15
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+Show
+	Class Maps
+	Rarity Unique
+	SetBackgroundColor 230 126 34
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+Show 
+    Class Maps
+	Rarity Normal
+	SetBackgroundColor 189 195 199
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	
+	
+Show
+	Class Map Fragments
+	BaseType "Sacrifice"
+	SetBackgroundColor 70 80 80
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+
+Show
+	Class Map Fragments
+	BaseType "Mortal"
+	SetBackgroundColor 120 20 20
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+ 
+#Show
+#    LinkedSockets >= 4
+
+
+ #-------------------#
+ #-----Crafting-----#
+ #-------------------#
+
+#Crafting Bases Jewellry
+Show
+	Rarity Normal
+	BaseType "Leather Belt" "Amethyst Ring" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Topaz Ring" "Ruby Ring" "Sapphire Ring" "Gold Amulet" "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet"
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+
+#Crafting Bases Jewellry
+Show
+	Rarity Magic
+	BaseType "Leather Belt" "Amethyst Ring" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Topaz Ring" "Ruby Ring" "Sapphire Ring" "Gold Amulet" "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet"
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+	
+#Amulets
+Show
+	Rarity Rare
+	BaseType "Leather Belt" "Amethyst Ring" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Topaz Ring" "Ruby Ring" "Sapphire Ring" "Gold Amulet" "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet"
+	SetBorderColor 255 255 119 150
+	
+#Crafting Bases Weapons
+Show
+	Rarity Normal
+	BaseType "Imbued Wand" "Harbinger Bow" "Gemini Claw" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Ambusher"
+	SetFontSize 40
+	ItemLevel >= 83
+	SetBorderColor 255 255 119 150
+
+#Crafting Bases Weapons
+Show
+	Rarity Magic
+	BaseType "Imbued Wand" "Harbinger Bow" "Gemini Claw" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Ambusher"
+	SetFontSize 40
+	ItemLevel >= 83
+	SetBorderColor 255 255 119 150
+	
+#Crafting Bases Weapons
+Show
+	Rarity Rare
+	BaseType "Imbued Wand" "Harbinger Bow" "Gemini Claw" "Behemoth Mace" "Sambar Sceptre" "Coronal Maul" "Ambusher"
+	SetFontSize 40
+	ItemLevel >= 83
+	SetBorderColor 255 255 119 150
+
+	
+#Crafting Bases Armour
+Show
+	Rarity Normal
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Glorious Plate" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Titan Gauntlets" "Slink Gloves" "Titan Greaves" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" 
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+	
+#Crafting Bases Armour
+Show
+	Rarity Magic
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Glorious Plate" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Titan Gauntlets" "Slink Gloves" "Titan Greaves" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" 
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+
+#Crafting Bases Armour
+Show
+	Rarity Rare
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Glorious Plate" "Astral Plate" "Assassin's Garb" "Vaal Regalia" "Titan Gauntlets" "Slink Gloves" "Titan Greaves" "Imperial Buckler" "Titanium Spirit Shield" "Harmonic Spirit Shield" 
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+	
+	
+	#Crafting Bases Armour
+Show
+	Rarity Normal
+	BaseType "Amethyst Ring"
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+	
+#Crafting Bases Armour
+Show
+	Rarity Magic
+	BaseType "Amethyst Ring"
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+
+#Crafting Bases Armour
+Show
+	Rarity Rare
+	BaseType "Amethyst Ring"
+	SetFontSize 40
+	ItemLevel >= 84
+	SetBorderColor 255 255 119 150
+	
+	
+ #------------------#
+ #---Chromatic---#
+ #------------------#
+
+#Chromatics	
+Show
+    SocketGroup RGB
+	Height 2
+	Width 2
+    SetBorderColor 0 170 255
+	SetFontSize 35
+Show
+    SocketGroup RGB
+	Height 3
+	Width 2
+    SetBorderColor 255 255 170
+	SetFontSize 28
+Show
+    SocketGroup RGB
+	Height 3
+	Width 1
+    SetBorderColor 255 255 170
+	SetFontSize 28
+Show
+    SocketGroup RGB
+	Height 4
+	Width 1
+    SetBorderColor 255 255 255
+	SetFontSize 20
+	
+Show
+    SocketGroup RGB
+	Height 4
+	Width 2
+    SetBorderColor 255 255 255
+	SetFontSize 20
+	
+#Talisman
+Show
+	BaseType "Talisman"
+	SetBorderColor 141 240 75
+	
+Show
+	Rarity Normal Magic
+	SetFontSize 20
+	SetBackgroundColor 0 0 0 150
+
+#Field 9, Hide the Rest
+#Show
+#Hide
+
+#Debug Mode
+#Show
+# SetBackgroundColor 60 60 60
