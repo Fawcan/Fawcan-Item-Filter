@@ -2,7 +2,21 @@ Show
     Class "Quest Items"
 	SetTextColor 241 196 15
 	SetBorderColor 241 196 15
-	
+
+
+#Labyrinth Items	
+Show
+	BaseType "Perandus Coin"
+	SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+
+Show
+Class "Labyrinth Items"
+	SetTextColor 41 128 185
+	SetBorderColor 41 128 185
+
+
+
 Show
 	Rarity Normal
     #BaseType "Occultist's Vestment" "Glorious Plate" "Sorcerer Boots" "Sapphire Flask"
@@ -46,13 +60,11 @@ Show
 	SetFontSize 45
     PlayAlertSound 4 300
 
-
 Show
     BaseType "Gemcutter's Prism" "Regal Orb" "Divine Orb" "Chaos Orb"
     SetBorderColor 231 76 60
     SetTextColor 231 76 60
     PlayAlertSound 1 300
-
 
 Show
     BaseType "Vaal Orb"
@@ -131,6 +143,12 @@ Show
     Class Jewel
     SetBorderColor 255 255 100
     SetTextColor 255 255 100
+
+Show
+    Rarity Magic
+    Class Jewel
+    SetBorderColor 41 128 185
+    SetTextColor 41 128 185
 	
 
 Show 
@@ -146,24 +164,20 @@ Show
 	SetFontSize 35
 
 Show
-    Rarity Magic
-    Class Jewel
-    SetBorderColor 41 128 185
-    SetTextColor 41 128 185
+	BaseType "Topaz" "Ruby" "Amethyst" "Granite" "Basalt" "Aquamarine" "Stibnite" "Sulphur" "Silver" "Bismuth"
+	SetFontSize 35
 Show
     BaseType "Flask"
     Quality = 20
+	SetFontSize 30
 	SetBorderColor 0 200 200
 Show
     BaseType "Flask"
     Quality >= 15
-	SetBorderColor 170 170 170	
-Show
-	BaseType "Granite"
-	SetFontSize 25
+	SetBorderColor 170 170 170 200
 Show
 	BaseType "Flask"
-	SetFontSize 20
+	SetFontSize 25
 
 #---------------------------------------------------- 
 # 0202 # MAP TIER LIST 
@@ -231,7 +245,7 @@ Show # Maps:T6
 
 Show # Maps:T7 
     Class Maps 
-    BaseType "Jungle Valley" "Terrace" "Mine" "Torture Chamber" "Waste Pool" 
+    BaseType "Jungle Valley" "Terrace" "Torture Chamber" "Waste Pool" "Abandoned Cavern"
     SetFontSize 40 
 	SetBackgroundColor 161 116 0
 	SetTextColor 0 0 0
@@ -276,7 +290,7 @@ Show # Maps:T11
 
 Show # Maps:T12 
     Class Maps 
-    BaseType "Arsenal" "Overgrown Ruin" "Shipyard" "Village Ruin" 
+    BaseType "Arsenal" "Overgrown Ruin" "Shipyard" "Village Ruin" "Chateau"
     SetFontSize 43 
 	SetBackgroundColor 152 17 3
 	SetTextColor 0 0 0
@@ -507,14 +521,12 @@ Show
 	BaseType "Talisman"
 	SetBorderColor 141 240 75
 	
+#Makes everything smaller.
 Show
 	Rarity Normal Magic
 	SetFontSize 20
 	SetBackgroundColor 0 0 0 150
 
-#Field 9, Hide the Rest
-#Show
-#Hide
 
 #Debug Mode
 #Show
