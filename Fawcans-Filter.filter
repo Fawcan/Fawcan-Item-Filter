@@ -272,7 +272,7 @@ Show # Maps:T9
 
 Show # Maps:T10 
     Class Maps 
-    BaseType "Bazaar" "Necropolis" "Plateau" "Volcano" 
+    BaseType "Bazaar" "Necropolis" "Plateau" "Volcano" "Chateau"
     SetFontSize 42 
 	SetBackgroundColor 221 176 5
 	SetTextColor 0 0 0
@@ -290,7 +290,7 @@ Show # Maps:T11
 
 Show # Maps:T12 
     Class Maps 
-    BaseType "Arsenal" "Overgrown Ruin" "Shipyard" "Village Ruin" "Chateau"
+    BaseType "Arsenal" "Overgrown Ruin" "Shipyard" "Village Ruin"
     SetFontSize 43 
 	SetBackgroundColor 152 17 3
 	SetTextColor 0 0 0
