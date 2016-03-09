@@ -1222,7 +1222,12 @@ Show # Flasks - Quality
     Quality >= 10
     Class "Flask"
     SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
-
+Show
+	Rarity Unique
+	BaseType "Hallowed Hybrid Flask"
+	SetBorderColor 0 0 0
+	
+	
 Show # Flasks - Hybrid - Hallowed
     BaseType "Hallowed Hybrid Flask"
     ItemLevel < 68
