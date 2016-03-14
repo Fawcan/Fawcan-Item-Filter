@@ -31,6 +31,8 @@ Show
 	SetBorderColor 0 0 0
 	SetFontSize 45
 	SetBackgroundColor 46 204 113
+	
+
 
 	
 #NEVERSINK'S RARE
@@ -1691,6 +1693,13 @@ Show
 	SetBorderColor 141 240 75
 	
 #Makes everything smaller.
+
+Show
+	BaseType "Sacrificial Garb"
+	SetFontSize 35
+	SetBorderColor 255 255 255 200
+	SetBackgroundColor 0 0 0 220
+
 Show
 	Rarity Normal
 	SetFontSize 20
@@ -1700,7 +1709,6 @@ Show
 	Rarity Magic
 	SetFontSize 23
 	SetBackgroundColor 0 0 0 200
-
 
 #Debug Mode
 #Show
