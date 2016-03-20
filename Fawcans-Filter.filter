@@ -33,7 +33,23 @@ Show
 	SetBackgroundColor 46 204 113
 	
 
-
+Show
+    LinkedSockets 6
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 142 68 255
+	SetFontSize 45
+    PlayAlertSound 1 300
+Show
+    LinkedSockets 5
+	SetFontSize 40
+    SetTextColor 176 72 248
+	SetBorderColor 176 72 248
+	
+Show
+    Sockets 6
+    SetBorderColor 142 68 255
+	SetFontSize 38
 	
 #NEVERSINK'S RARE
 	
@@ -1081,13 +1097,13 @@ Show #$bad
 
 Show
 	Rarity Normal
-    BaseType "Glorious Plate" "Sorcerer Boots" "Sapphire Flask" "Gavel" "Rock Breaker"
+    BaseType "Sorcerer Boots" "Sapphire Flask" "Gavel" "Rock Breaker"
     SetBorderColor 150 0 150
 	SetFontSize 35
-	
+	#"Glorious Plate" 
 Show
 	Rarity Unique
-	BaseType "Occultist's Vestment" "Glorious Plate" "Judgement Staff" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Full Wyrmscale" "Karui Maul" "Ursine Pelt"
+	BaseType "Occultist's Vestment" "Glorious Plate" "Judgement Staff" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Full Wyrmscale" "Karui Maul" "Ursine Pelt" "Sorcerer Boots"
 	SetFontSize 45
 	SetBorderColor 175 96 37
 	SetBackgroundColor 255 255 255
@@ -1105,8 +1121,8 @@ Show
 #    SetBorderColor 150 0 150
 	
 Show
-Rarity Normal
-    Class "Fishing Rod" 
+Rarity Normal Magic Rare Unique
+    BaseType "Fishing Rod" 
     SetTextColor 255 0 255
     SetBorderColor 30 150 180
     SetBackgroundColor 0 255 0
@@ -1122,25 +1138,59 @@ Show
     PlayAlertSound 4 300
 
 Show
-    BaseType "Gemcutter's Prism" "Regal Orb" "Divine Orb" "Chaos Orb"
+    BaseType "Divine Orb"
     SetBorderColor 231 76 60
     SetTextColor 231 76 60
+	SetFontSize 45
+    PlayAlertSound 1 300
+	
+Show
+    BaseType "Regal Orb"
+    SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+	SetFontSize 40
+    PlayAlertSound 1 300
+	
+Show
+    BaseType "Chaos Orb"
+    SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+	SetFontSize 35
     PlayAlertSound 1 300
 
 Show
+	BaseType "Gemcutter's Prism" 
+	SetTextColor 224 86 69
+	SetBorderColor 224 86 69
+	PlayAlertSound 1 300
+	
+Show
     BaseType "Vaal Orb"
-	SetBorderColor 231 76 60
-	SetTextColor 200 158 130
+	SetTextColor 214 99 80
+	SetBorderColor 214 99 80
+
     
 Show
     BaseType "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
-    SetBorderColor 170 158 130
-Show
-	BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Chromatic Orb" "Armourer's Scrap" "Alchemy Shard" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Chance" "Blessed Orb" 
+    SetTextColor 205 111 90
 
+	
+Show
+	BaseType "Orb of Chance" "Jeweller's Orb" "Blessed Orb" 
+	SetTextColor 196 124 101
+	
+Show
+	BaseType "Chromatic Orb"  "Glassblower's Bauble" 
+	SetTextColor 178 147 120
+
+	
+#Lowest tier	
+Show
+	BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Alchemy Shard" 
+	
 Show
     Class "Divination"
-    BaseType "Avenger" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic" "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing" "The Artist" "The Aesthete" "Bowyer's Dream" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist" "The Vast" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy"
+    BaseType "Chaotic Disposition" "Avenger" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic" "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing" "The Artist" "The Aesthete" "Bowyer's Dream" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist" "The Vast" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy"
     SetFontSize 45
     SetBorderColor 255 0 175
     SetBackgroundColor 255 255 255 255
@@ -1153,23 +1203,6 @@ Show
 	SetBorderColor 192 252 248
 
 
-Show
-    LinkedSockets 6
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetBackgroundColor 142 68 255
-	SetFontSize 45
-    PlayAlertSound 1 300
-Show
-    LinkedSockets 5
-	SetFontSize 40
-    SetTextColor 176 72 248
-	SetBorderColor 176 72 248
-	
-Show
-    Sockets 6
-    SetBorderColor 142 68 255
-	SetFontSize 38
 	
 Show
     Class Gem
@@ -1221,7 +1254,7 @@ Show # Flasks - Utility
     SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
 
 Show # Flasks - Quality
-    Quality >= 10
+    Quality >= 20
     Class "Flask"
     SetBorderColor 88 0 179 # Utility/Hybrid/Quality flask
 Show
@@ -1310,21 +1343,21 @@ Show # Flasks - Life - Divine+ - (under 70)
     Class "Life Flask"
     SetBorderColor 83 0 110 # Life flask
 
-Show # Flasks - Mana - Divine+ - (over 70)
-    DropLevel > 58
-    Class "Mana Flask"
-    SetFontSize 25
+#Show # Flasks - Mana - Divine+ - (over 70)
+#    DropLevel > 58
+#    Class "Mana Flask"
+#    SetFontSize 25
 
-Show # Flasks - Life - Divine+ - (over 70)
-    DropLevel > 58
-    Class "Life Flask"
-    SetFontSize 25
+#Show # Flasks - Life - Divine+ - (over 70)
+#    DropLevel > 58
+#    Class "Life Flask"
+#    SetFontSize 25
 
 #--------------------------
 	
 Show 
-	BaseType "Sapphire Flask" "Granite Flask" "Large Hybrid Flask" "Topaz Flask" "Ruby Flask" "Hallowed Hybrid Flask" "Sulphur Flask"
 	Rarity Unique
+	BaseType "Sapphire Flask" "Granite Flask" "Large Hybrid Flask" "Topaz Flask" "Ruby Flask" "Hallowed Hybrid Flask" "Sulphur Flask"
 	SetBorderColor 175 96 37
 	SetBackgroundColor 0 0 0 255
 	SetFontSize 40
@@ -1335,6 +1368,7 @@ Show
 	SetFontSize 35
 
 Show
+	Rarity Rare Unique
 	BaseType "Topaz" "Ruby" "Amethyst" "Granite" "Basalt" "Aquamarine" "Stibnite" "Sulphur" "Silver" "Bismuth"
 	SetFontSize 35
 Show
@@ -1342,13 +1376,11 @@ Show
     Quality = 20
 	SetFontSize 30
 	SetBorderColor 0 200 200
-Show
-    BaseType "Flask"
-    Quality >= 15
-	SetBorderColor 170 170 170 200
-Show
-	BaseType "Flask"
-	SetFontSize 25
+#Show
+#    BaseType "Flask"
+#    Quality >= 15
+#	SetBorderColor 170 170 170 200
+
 
 #---------------------------------------------------- 
 # 0202 # MAP TIER LIST 
@@ -1701,11 +1733,17 @@ Show
 	SetBackgroundColor 0 0 0 220
 
 Show
+	ItemLevel >= 83
+	Rarity Normal Magic
+	SetFontSize 23
+	SetBackgroundColor 0 0 0 150
+	
+Hide
 	Rarity Normal
 	SetFontSize 20
 	SetBackgroundColor 0 0 0 150
 	
-Show
+Hide
 	Rarity Magic
 	SetFontSize 23
 	SetBackgroundColor 0 0 0 200
