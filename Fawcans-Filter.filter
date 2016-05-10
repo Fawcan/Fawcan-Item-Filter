@@ -9,6 +9,7 @@ Show
 	BaseType "Perandus"
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
+	SetFontSize 35
 	SetBackgroundColor 241 196 15
 
 Show
@@ -50,6 +51,23 @@ Show
     Sockets 6
     SetBorderColor 142 68 255
 	SetFontSize 38
+	PlayAlertSound 1 300
+	
+	
+	
+Show
+	Rarity Normal
+    BaseType "Sorcerer Boots" "Sapphire Flask" "Agate Amulet" "Rawhide Boots"
+    SetBorderColor 150 0 150
+	SetFontSize 40
+	#"Glorious Plate" "Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" 
+Show
+	Rarity Unique
+	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots" "Rawhide Boots"
+	SetFontSize 45
+	SetBorderColor 175 96 37
+	SetBackgroundColor 255 255 255
+	PlayAlertSound 2 300
 	
 #NEVERSINK'S RARE
 	
@@ -1093,21 +1111,8 @@ Show #$bad
 	
 	
 
-#---------------
+#------------------------------------------------------------------------------------------------------------------------------------
 
-Show
-	Rarity Normal
-    BaseType "Sorcerer Boots" "Sapphire Flask" "Gavel" "Rock Breaker"
-    SetBorderColor 150 0 150
-	SetFontSize 35
-	#"Glorious Plate" 
-Show
-	Rarity Unique
-	BaseType "Occultist's Vestment" "Glorious Plate" "Judgement Staff" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Full Wyrmscale" "Karui Maul" "Ursine Pelt" "Sorcerer Boots"
-	SetFontSize 45
-	SetBorderColor 175 96 37
-	SetBackgroundColor 255 255 255
-	PlayAlertSound 2 300
 	
 #Show
 #	Rarity Rare
@@ -1168,17 +1173,17 @@ Show
     BaseType "Vaal Orb"
 	SetTextColor 214 99 80
 	SetBorderColor 214 99 80
-
+    PlayAlertSound 1 300
     
 Show
     BaseType "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
     SetTextColor 205 111 90
-
+    PlayAlertSound 1 300
 	
 Show
 	BaseType "Orb of Chance" "Jeweller's Orb" "Blessed Orb" 
 	SetTextColor 196 124 101
-	
+	PlayAlertSound 1 300
 Show
 	BaseType "Chromatic Orb"  "Glassblower's Bauble" 
 	SetTextColor 178 147 120
@@ -1201,6 +1206,7 @@ Show
 	Class "Divination Card"
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
+	PlayAlertSound 1 300
 
 
 	
@@ -1216,6 +1222,14 @@ Show
     SetBorderColor 200 120 80
 	SetFontSize 40
 	SetTextColor 46 204 113
+	PlayAlertSound 1 300
+
+Show
+    Class Gem
+    Quality > 15
+    SetBorderColor 46 204 113
+    SetTextColor 46 204 113
+	PlayAlertSound 2 300
 	
 Show
     Class Gem
@@ -1261,7 +1275,6 @@ Show
 	Rarity Unique
 	BaseType "Hallowed Hybrid Flask"
 	SetBorderColor 0 0 0
-	
 	
 Show # Flasks - Hybrid - Hallowed
     BaseType "Hallowed Hybrid Flask"
@@ -1333,15 +1346,20 @@ Show # Flasks - Life - ilvl < 55
 
 Show # Flasks - Mana - Divine+ - (under 70)
     DropLevel > 58
-    ItemLevel < 70
+    ItemLevel < 68
     Class "Mana Flask"
     SetBorderColor 88 0 222 # Mana flask
 
 Show # Flasks - Life - Divine+ - (under 70)
     DropLevel > 58
-    ItemLevel < 70
+    ItemLevel < 68
     Class "Life Flask"
     SetBorderColor 83 0 110 # Life flask
+	
+Hide # Flasks - Life - Divine+ - (over 68)
+	Rarity Normal Magic
+    ItemLevel > 69
+    Class "Life Flask" "Mana Flask"
 
 #Show # Flasks - Mana - Divine+ - (over 70)
 #    DropLevel > 58
@@ -1357,12 +1375,12 @@ Show # Flasks - Life - Divine+ - (under 70)
 	
 Show 
 	Rarity Unique
-	BaseType "Sapphire Flask" "Granite Flask" "Large Hybrid Flask" "Topaz Flask" "Ruby Flask" "Hallowed Hybrid Flask" "Sulphur Flask"
+	BaseType "Sapphire Flask" "Granite Flask" "Topaz Flask"
 	SetBorderColor 175 96 37
 	SetBackgroundColor 0 0 0 255
 	SetFontSize 40
 Show 
-	BaseType "Flask"
+	BaseType "Flask" "Hallowed Hybrid Flask" "Sulphur Flask" "Large Hybrid Flask" "Ruby Flask"
 	Rarity Unique
 	SetBorderColor 175 96 37
 	SetFontSize 35
@@ -1576,6 +1594,7 @@ Show
 	SetBackgroundColor 120 20 20
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
+	PlayAlertSound 4 300
  
 #Show
 #    LinkedSockets >= 4
@@ -1698,26 +1717,26 @@ Show
 	Height 3
 	Width 2
     SetBorderColor 255 255 170
-	SetFontSize 28
+	SetFontSize 31
 Show
     SocketGroup RGB
 	Height 3
 	Width 1
     SetBorderColor 255 255 170
-	SetFontSize 28
+	SetFontSize 31
 Show
     SocketGroup RGB
 	Height 4
 	Width 1
     SetBorderColor 255 255 255
-	SetFontSize 20
+	SetFontSize 25
 	
 Show
     SocketGroup RGB
 	Height 4
 	Width 2
     SetBorderColor 255 255 255
-	SetFontSize 20
+	SetFontSize 25
 	
 #Talisman
 Show
@@ -1732,17 +1751,19 @@ Show
 	SetBorderColor 255 255 255 200
 	SetBackgroundColor 0 0 0 220
 
-Show
-	ItemLevel >= 83
-	Rarity Normal Magic
-	SetFontSize 23
-	SetBackgroundColor 0 0 0 150
+#Show
+#	ItemLevel >= 83
+#	Rarity Normal Magic
+#	SetFontSize 23
+#	SetBackgroundColor 0 0 0 150
 	
+#Show
 Hide
 	Rarity Normal
 	SetFontSize 20
 	SetBackgroundColor 0 0 0 150
 	
+#Show
 Hide
 	Rarity Magic
 	SetFontSize 23
