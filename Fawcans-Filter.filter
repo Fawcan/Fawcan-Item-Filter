@@ -4,7 +4,7 @@ Show
 	SetBorderColor 241 196 15
 
 
-#Labyrinth Items	
+#League things	
 Show
 	BaseType "Perandus"
 	SetBorderColor 0 0 0
@@ -12,6 +12,21 @@ Show
 	SetFontSize 35
 	SetBackgroundColor 241 196 15
 
+Show
+	BaseType "Silver Coin"
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 35
+	SetBackgroundColor 189 195 199
+	
+Show
+	BaseType "Prophecy"
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 35
+	SetBackgroundColor 155 89 182
+	
+#Labyrinth Items
 Show
 	BaseType "Silver Key"
 	SetTextColor 0 0 0
@@ -32,7 +47,14 @@ Show
 	SetBorderColor 0 0 0
 	SetFontSize 45
 	SetBackgroundColor 46 204 113
-	
+
+Show
+	BaseType "Offering to the Goddess"
+	PlayAlertSound 4 300
+	SetFontSize 40
+    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 0 0 255
 
 Show
     LinkedSockets 6
@@ -68,6 +90,16 @@ Show
 	SetBorderColor 175 96 37
 	SetBackgroundColor 255 255 255
 	PlayAlertSound 2 300
+	
+Show
+	SocketGroup WWWWWW
+	BaseType "Simple Robe"
+	Rarity Unique
+	PlayAlertSound 6 300
+	SetBackgroundColor 175 96 37 255
+	SetBorderColor 255 150 000 255
+	SetTextColor 0 0 0 255
+	SetFontSize 43
 	
 #NEVERSINK'S RARE
 	
@@ -1195,7 +1227,7 @@ Show
 	
 Show
     Class "Divination"
-    BaseType "Chaotic Disposition" "Avenger" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic" "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing" "The Artist" "The Aesthete" "Bowyer's Dream" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist" "The Vast" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy"
+    BaseType "The Harvester" "The Cursed King" "Lysah's Respite" "Emperor of Purity" "Chaotic Disposition" "Avenger" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic" "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing" "The Artist" "The Aesthete" "Bowyer's Dream" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist" "The Vast" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy"
     SetFontSize 45
     SetBorderColor 255 0 175
     SetBackgroundColor 255 255 255 255
@@ -1529,7 +1561,7 @@ Show # Maps:T13
 
 Show # Maps:T14 
     Class Maps 
-    BaseType "Shrine" "Conservatory" "Palace"
+    BaseType "Shrine" "Conservatory" "Palace" "Plaza"
     SetFontSize 45 
 	SetBackgroundColor 192 57 43
 	SetTextColor 0 0 0
@@ -1580,6 +1612,13 @@ Show
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	
+
+Show
+	Class Map Fragments
+	BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+	SetBackgroundColor 70 80 80
+	SetTextColor 230 126 34
+	SetBorderColor 230 126 34
 	
 Show
 	Class Map Fragments
@@ -1757,16 +1796,18 @@ Show
 #	SetFontSize 23
 #	SetBackgroundColor 0 0 0 150
 	
-#Show
-Hide
+Show
+#Hide
 	Rarity Normal
-	SetFontSize 20
+	#SetFontSize 20
+	SetFontSize 25
 	SetBackgroundColor 0 0 0 150
 	
-#Show
-Hide
+Show
+#Hide
 	Rarity Magic
 	SetFontSize 23
+	SetFontSize 25
 	SetBackgroundColor 0 0 0 200
 
 #Debug Mode
