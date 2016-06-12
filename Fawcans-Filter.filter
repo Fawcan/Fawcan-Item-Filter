@@ -17,14 +17,16 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 35
-	SetBackgroundColor 189 195 199
-	
-Show
-	BaseType "Prophecy"
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
 	SetBackgroundColor 155 89 182
+	#189 195 199
+
+	
+#Show
+#	BaseType "Prophecy"
+#	SetBorderColor 0 0 0
+#	SetTextColor 0 0 0
+#	SetFontSize 35
+#	SetBackgroundColor 155 89 182
 	
 #Labyrinth Items
 Show
@@ -75,17 +77,17 @@ Show
 	SetFontSize 38
 	PlayAlertSound 1 300
 	
-	
+	# "Agate Amulet" "Rawhide Boots"
 	
 Show
 	Rarity Normal
-    BaseType "Sorcerer Boots" "Sapphire Flask" "Agate Amulet" "Rawhide Boots"
+    BaseType "Sorcerer Boots" "Sapphire Flask" "Occultist's Vestment" "Leather Belt" "Vaal Regalia"
     SetBorderColor 150 0 150
 	SetFontSize 40
 	#"Glorious Plate" "Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" 
 Show
 	Rarity Unique
-	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots" "Rawhide Boots"
+	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots" "Rawhide Boots" "Vaal Regalia"
 	SetFontSize 45
 	SetBorderColor 175 96 37
 	SetBackgroundColor 255 255 255
@@ -1238,7 +1240,7 @@ Show
 	Class "Divination Card"
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
-	PlayAlertSound 1 300
+	#PlayAlertSound 1 300
 
 
 	
@@ -1796,18 +1798,18 @@ Show
 #	SetFontSize 23
 #	SetBackgroundColor 0 0 0 150
 	
-Show
-#Hide
+#Show
+Hide
 	Rarity Normal
-	#SetFontSize 20
-	SetFontSize 25
+	SetFontSize 20
+	#SetFontSize 28
 	SetBackgroundColor 0 0 0 150
 	
-Show
-#Hide
+#Show
+Hide
 	Rarity Magic
 	SetFontSize 23
-	SetFontSize 25
+	#SetFontSize 28
 	SetBackgroundColor 0 0 0 200
 
 #Debug Mode
