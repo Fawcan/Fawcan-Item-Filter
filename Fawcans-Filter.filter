@@ -1909,12 +1909,30 @@ Show
 Show
 #Hide
 	Rarity Normal
+	BaseType "Vaal Regalia"
+	ItemLevel >= 69
+	SetFontSize 20
+	#SetFontSize 28
+	SetBackgroundColor 0 0 0 150	
+Show
+#Hide
+	Rarity Magic
+	BaseType "Vaal Regalia"
+	ItemLevel >= 69
+	SetFontSize 20
+	#SetFontSize 28
+	SetBackgroundColor 0 0 0 150	
+	
+	
+#Show
+Hide
+	Rarity Normal
 	SetFontSize 20
 	#SetFontSize 28
 	SetBackgroundColor 0 0 0 150
 	
-Show
-#Hide
+#Show
+Hide
 	Rarity Magic
 	SetFontSize 23
 	#SetFontSize 28
