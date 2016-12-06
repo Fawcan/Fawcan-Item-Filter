@@ -58,26 +58,7 @@ Show
     SetTextColor 0 0 0
     SetBackgroundColor 180 0 0 255
 	
-#Shaper items
-	
-Show
-	BaseType "Apprentice Cartographer's Sextant"
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetBackgroundColor 127 140 141
-Show
-	BaseType "Journeyman Cartographer's Sextant"
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetBackgroundColor 243 156 18
-Show
-	BaseType "Master Cartographer's Sextant"
-		SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetBackgroundColor 192 57 43
+
 	
 	
 Show
@@ -103,13 +84,13 @@ Show
 	
 Show
 	Rarity Normal
-    BaseType "Sorcerer Boots" "Sapphire Flask" "Occultist's Vestment" "Leather Belt" "Glorious Plate"
+    BaseType "Sorcerer Boots" "Sapphire Flask" "Occultist's Vestment" "Leather Belt" "Glorious Plate" "Jewelled Foil" 
     SetBorderColor 150 0 150
 	SetFontSize 40
 	#"Glorious Plate" "Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" 
 Show
 	Rarity Unique
-	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots" "Rawhide Boots" "Vaal Regalia"
+	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots" "Rawhide Boots" "Vaal Regalia" "Assassin's Garb" "Jewelled Foil"
 	SetFontSize 45
 	SetBorderColor 175 96 37
 	SetBackgroundColor 255 255 255
@@ -1182,7 +1163,7 @@ Show #$bad
 #    SetBorderColor 150 0 150
 	
 Show
-Rarity Normal Magic Rare Unique
+	Rarity Normal Magic Rare Unique
     BaseType "Fishing Rod" 
     SetTextColor 255 0 255
     SetBorderColor 30 150 180
@@ -1218,13 +1199,6 @@ Show
     SetTextColor 231 76 60
 	SetFontSize 35
     PlayAlertSound 1 300
-
-Show
-	BaseType "Master Cartographer's Sextant"
-	SetBorderColor 231 76 60
-	SetTextColor 231 108 60
-	SetFontSize 35
-    PlayAlertSound 1 300
 	
 Show
 	BaseType "Gemcutter's Prism" 
@@ -1237,11 +1211,6 @@ Show
 	SetTextColor 214 99 80
 	SetBorderColor 214 99 80
     PlayAlertSound 1 300
-
-Show
-	BaseType "Journeyman Cartographer's Sextant"
-	SetTextColor 224 211 69
-	PlayAlertSound 1 300
    
 Show
     BaseType "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
@@ -1254,13 +1223,40 @@ Show
 	PlayAlertSound 1 300
 	
 Show
-	BaseType "Apprentice Cartographer's Sextant"
-	SetTextColor 196 175 101
-	PlayAlertSound 1 300
-	
-Show
 	BaseType "Chromatic Orb"  "Glassblower's Bauble" 
 	SetTextColor 178 147 120
+
+Show
+	BaseType "Splinter of "
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 50 0 255
+	
+Show
+	BaseType "Blessing of "
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 233 0 255 255
+	
+	
+Show
+	BaseType "Apprentice Cartographer's Sextant"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 127 140 141
+Show
+	BaseType "Journeyman Cartographer's Sextant"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 243 156 18
+Show
+	BaseType "Master Cartographer's Sextant"
+		SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 192 57 43
 
 #---------
 #Essences-
@@ -1339,7 +1335,7 @@ Show
 	
 Show
     Class Gem
-    BaseType "Empower" "Enhance" "Enlighten" "Portal" 
+    BaseType "Empower" "Enhance" "Enlighten" "Portal" "Vaal Breach"
 	#"Vaal Breach"
     SetBorderColor 200 120 80
 	SetFontSize 40
@@ -1526,6 +1522,147 @@ Hide # Flasks - Life - Divine+ - (over 68)
 # 0202 # MAP TIER LIST 
 #---------------------------------------------------- 
 
+#------------
+#Shaped maps-
+#------------
+Show # Maps:T1 
+    Class Maps 
+    BaseType "Arcade" "Desert" "Crystal Ore" "Jungle Valley"
+    SetFontSize 34 
+	SetBackgroundColor 200 200 200
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T2 
+    Class Maps 
+    BaseType "Beach" "Factory" "Ghetto" "Oasis"
+    SetFontSize 35 
+	SetBackgroundColor 210 210 210
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T3 
+    Class Maps 
+    BaseType "Arid Lake" "Cavern" "Channel" "Grotto" "Marshes" "Sewer" "Vaal Pyramid" 
+    SetFontSize 36 
+	SetBackgroundColor 220 220 220
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T4 
+    Class Maps 
+    BaseType "Academy" "Acid Lake" "Dungeon" "Graveyard" "Phantasmagoria" "Villa" "Waste Pool" 
+    SetFontSize 37 
+	SetBackgroundColor 230 230 230
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T5 
+    Class Maps 
+    BaseType "Burial Chambers" "Peninsula" "Dunes" "Mesa" "Pit" "Primordial Pool" "Spider Lair" "Tower" 
+    SetFontSize 38 
+	SetBackgroundColor 240 240 240
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T6 
+    Class Maps 
+    BaseType "Shaped Arcade" "Shaped Crystal Ore" "Shaped Desert" "Shaped Jungle Valley" "Canyon" "Racecourse" "Ramparts" "Spider Forest" "Strand" "Thicket" "Vaal City" "Wharf"
+    SetFontSize 39 
+	SetBackgroundColor 150 110 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T7 
+    Class Maps 
+    BaseType "Shaped Beach" "Shaped Factory" "Shaped Ghetto" "Shaped Oasis" "Arachnid Tomb" "Castle Ruins" "Catacombs" "Cells" "Armoury" "Ashen Wood" "Mud Geyser"
+    SetFontSize 40 
+	SetBackgroundColor 161 116 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T8 
+    Class Maps 
+    BaseType "Shaped Arid Lake" "Shaped Cavern" "Shaped Channel" "Shaped Grotto" "Shaped Marshes" "Shaped Sewer" "Shaped Vaal Pyramid" "Arachnid Nest" "Arena" "Bog" "Cemetery" "Barrows" "Atoll" "Pier" "Shore" "Tropical Island" 
+    SetFontSize 41 
+	SetBackgroundColor 181 136 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T9 
+    Class Maps 
+    BaseType "Shaped Academy" "Shaped Acid Lakes" "Shaped Dungeon" "Shaped Graveyard" "Shaped Phantasmagoria" "Shaped Villa" "Shaped Waste Pool" "Coves" "Crypt" "Museum" "Orchard" "Overgrown Shrine" "Promenade" "Reef" "Temple"
+    SetFontSize 41 
+	SetBackgroundColor 201 156 0
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T10 
+    Class Maps 
+    BaseType "Shaped Burial Chambers" "Shaped Peninsula" "Shaped Dunes" "Shaped Mesa" "Shaped Pit" "Shaped Primordial Pool" "Shaped Spider Lair" "Shaped Tower" "Colonnade" "Arsenal" "Courtyard" "Malformation" "Quay" "Terrace" "Underground River"
+    SetFontSize 42 
+	SetBackgroundColor 221 176 5
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T11 
+    Class Maps 
+    BaseType "Shaped Canyon" "Shaped Quarry" "Shaped Racecourse" "Shaped Ramparts" "Shaped Spider Forest" "Shaped Strand" "Shaped Thicket" "Shaped Vaal City" "Shaped Wharf" "Bazaar" "Chateau" "Excavation" "Precinct" "Torture Chamber" "Underground Sea" "Wasteland" 
+    SetFontSize 42 
+	SetBackgroundColor 241 196 15
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 3 200 
+
+Show # Maps:T12 
+    Class Maps 
+    BaseType "Shaped Arachnid Tomb" "Shaped Castle Ruins" "Shaped Catacombs" "Shaped Cells" "Shaped Armoury" "Shaped Ashen Wood" "Shaped Mud Geyser" "Crematorium" "Estuary" "Necropolis" "Plateau" "Ivory Temple" "Residence" "Shipyard" "Vault"
+    SetFontSize 43 
+	SetBackgroundColor 152 17 3
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
+
+Show # Maps:T13 
+    Class Maps 
+    BaseType "Shaped Arachnid Nest" "Shaped Arena" "Shaped Bog" "Shaped Cemetery" "Shaped Barrows" "Shaped Atoll" "Shaped Pier" "Shaped Shore" "Shaped Tropical Island" "Lair" "Beacon" "Gorge" "High Gardens" "Plaza" "Scriptorium" "Sulphur Wastes" "Waterways" 
+    SetFontSize 44 
+	SetBackgroundColor 172 37 23
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
+
+Show # Maps:T14 
+    Class Maps 
+    BaseType "Shaped Coves" "Shaped Crypt" "Shaped Museum" "Shaped Orchard" "Shaped Overgrown Shrine" "Shaped Promenade" "Shaped Reef" "Shaped Temple" "Maze" "Mineral Pools" "Palace" "Shrine" "Springs" "Volcano" 
+    SetFontSize 45 
+	PlayAlertSound 3 200 
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 192 57 43
+
+Show # Maps:T15 
+    Class Maps 
+    BaseType "Shaped Colonnade" "Shaped Arsenal" "Shaped Courtyard" "Shaped Malformation" "Shaped Quay" "Shaped Terrace" "Shaped Underground River" "Abyss" "Colosseum" "Core" "Dark Forest" "Overgrown Ruin"
+    SetFontSize 45 
+    PlayAlertSound 3 300 
+    SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+    SetBackgroundColor 255 57 43
+
+#-----------
+#Unique map-
+#-----------
 Show # Maps:Unique 
     Class Maps 
     Rarity Unique 
@@ -1728,6 +1865,13 @@ Show
 	
 Show
 	Class Map Fragments
+	BaseType " Breachstone" 
+	SetBackgroundColor 137 58 255 255
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	
+Show
+	Class Map Fragments
 	BaseType "Sacrifice"
 	SetBackgroundColor 70 80 80
 	SetTextColor 255 255 255
@@ -1751,6 +1895,12 @@ Show
 
 #Crafting Bases Jewellry
 
+Show
+	BaseType "Breach Ring"
+	Rarity Rare
+	SetBorderColor 214 99 80
+
+	
 Show
 	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 
@@ -1906,14 +2056,28 @@ Show
 #	SetFontSize 23
 #	SetBackgroundColor 0 0 0 150
 	
+#Show
+#Hide
+#	Rarity Normal
+#	BaseType "Imperial Skean" "Demon Dagger"
+#	SetFontSize 25
+#	SetBackgroundColor 0 0 0 255
+	
 Show
 #Hide
 	Rarity Normal
-	BaseType "Vaal Regalia"
-	ItemLevel >= 69
-	SetFontSize 20
-	#SetFontSize 28
-	SetBackgroundColor 0 0 0 150	
+	BaseType "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Crude Bow"
+	ItemLevel >= 72
+	SetFontSize 35
+	SetBackgroundColor 0 0 0 255
+Show
+#Hide
+	Rarity Normal
+	BaseType "Titanium Spirit Shield"
+	ItemLevel >= 75
+	SetFontSize 35
+	SetBackgroundColor 0 0 0 255	
+	
 Show
 #Hide
 	Rarity Magic
