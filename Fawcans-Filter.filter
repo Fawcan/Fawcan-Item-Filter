@@ -16,10 +16,431 @@ Show
 	BaseType "Silver Coin"
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 40
 	SetBackgroundColor 155 89 182
 	#189 195 199
 
+	
+Show
+	Rarity Normal Magic Rare Unique
+    BaseType "Fishing Rod" 
+    SetTextColor 255 0 255
+    SetBorderColor 30 150 180
+    SetBackgroundColor 0 255 0
+	SetFontSize 45
+    PlayAlertSound 5 300
+
+Show
+    BaseType "Mirror of Kalandra" "Rhoa Feather" "Eternal Orb" "Exalted Orb" "Deafening Essence of " "Shrieking Essence of" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium"
+    SetTextColor 255 255 255
+    SetBackgroundColor 231 76 60
+    SetBorderColor 255 255 255
+	SetFontSize 45
+    PlayAlertSound 4 300
+
+Show
+    BaseType "Divine Orb" 
+    SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+	SetFontSize 45
+    PlayAlertSound 1 300
+	
+Show
+    BaseType "Regal Orb"
+    SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+	SetFontSize 43
+    PlayAlertSound 1 300
+	
+Show
+    BaseType "Chaos Orb" "Stacked Deck"
+    SetBorderColor 231 76 60
+    SetTextColor 231 76 60
+	SetFontSize 40
+    PlayAlertSound 1 300
+	
+Show
+	BaseType "Gemcutter's Prism" 
+	SetTextColor 224 86 69
+	SetFontSize 36
+	PlayAlertSound 1 300
+	
+Show
+    BaseType "Vaal Orb" "Remnant of Corruption"
+	SetTextColor 214 99 80
+	SetBorderColor 214 99 80
+	SetFontSize 36
+    PlayAlertSound 1 300
+   
+Show
+    BaseType "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
+    SetTextColor 205 111 90
+	SetFontSize 36
+    PlayAlertSound 1 300
+	
+Show
+	BaseType "Orb of Chance" "Jeweller's Orb" "Blessed Orb" 
+	SetTextColor 196 124 101
+	SetFontSize 36
+	PlayAlertSound 1 300
+	
+Show
+	BaseType "Chromatic Orb"  "Glassblower's Bauble" "Orb of Alteration" 
+	SetTextColor 178 147 120
+	SetFontSize 35
+
+#---------------------------------------
+	
+#----------
+#-- Xoph --
+#----------
+Show
+	BaseType "Splinter of Xoph"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 196 72 72
+	
+Show
+	BaseType "Blessing of Xoph"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 196 72 72
+#---------
+#-- Esh --
+#---------
+Show
+	BaseType "Splinter of Esh"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 45 142 191
+	
+Show
+	BaseType "Blessing of Esh"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 45 142 191
+#---------
+#-- Tul --
+#---------
+Show
+	BaseType "Splinter of Tul"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 232 232 232
+	
+Show
+	BaseType "Blessing of Tul"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 232 232 232
+#----------
+#-- Uul-Netol --
+#----------
+Show
+	BaseType "Splinter of Uul-Netol"
+	SetTextColor 200 200 200
+	SetBorderColor 200 200 200
+	SetBackgroundColor 51 51 51
+	
+Show
+	BaseType "Blessing of Uul-Netol"
+	SetTextColor 200 200 200
+	SetBorderColor 200 200 200
+	SetFontSize 45
+	SetBackgroundColor 51 51 51
+
+#-------------
+#-- Chayula --
+#-------------
+Show
+	BaseType "Splinter of Chayula"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 146 71 153
+	
+Show
+	BaseType "Blessing of Chayula"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 45
+	SetBackgroundColor 146 71 153
+	
+#---------------------------------------
+	
+Show
+	BaseType "Apprentice Cartographer's Sextant"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 35
+	SetBackgroundColor 224 244 244
+Show
+	BaseType "Journeyman Cartographer's Sextant"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 35
+	SetBackgroundColor 243 156 18
+Show
+	BaseType "Master Cartographer's Sextant"
+		SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetFontSize 35
+	SetBackgroundColor 192 57 43
+
+#---------
+#Essences-
+#---------
+Show
+	Class Currency
+	BaseType " of Greed"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 18 55 142 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Contempt"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 31 68 155 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Hatred"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 55 90 173 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Woe"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 112 147 229 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Fear"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 104 232 172 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Anger"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 84 229 125 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Torment"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 69 239 117 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Sorrow"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 131 239 69 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Rage"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 154 255 96 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Suffering"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 186 96 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Wrath"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 247 171 71 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Doubt"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 249 140 62 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Loathing"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 106 38 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Zeal"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 81 38 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Anguish"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 67 20 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Spite"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 204 14 52 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Scorn"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 149 28 160 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Envy"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 165 35 209 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Misery"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 80 52 193 255
+	SetFontSize 35
+Show
+	Class Currency
+	BaseType " of Dread"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 52 68 193 255
+	SetFontSize 35
+	
+#--------------------------
+	
+Show
+	Class Currency
+	BaseType "Screaming Essence of"
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 15 180 200 255
+	SetFontSize 40
+	PlayAlertSound 2 300
+	
+Show
+	Class Currency
+	BaseType "Wailing Essence of"
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 30 159 200 255
+	SetFontSize 38
+	PlayAlertSound 2 300
+	
+Show
+	Class Currency
+	BaseType "Weeping Essence of"
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 30 159 200 225
+	SetFontSize 36
+	PlayAlertSound 2 300
+	
+Show
+	Class Currency
+	BaseType "Muttering Essence of"
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 30 159 200 200
+	SetFontSize 36
+	PlayAlertSound 2 300
+	
+Show
+	Class Currency
+	BaseType "Whispering Essence of"
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 30 159 200 175
+	SetFontSize 34
+	PlayAlertSound 2 300
+	
+#Lowest tier	
+Show
+	BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Alchemy Shard" 
+
+	
+	
+#----------
+#-- TEST --
+#----------
+#Show # Maps:T1 
+#   Class Maps 
+#	DropLevel 71
+#   BaseType "Arcade" "Desert" "Crystal Ore" "Jungle Valley"
+#   SetFontSize 34
+#	SetBackgroundColor 189 195 199
+#	SetTextColor 0 0 0
+#	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 127 140 141
+
+#Show # Maps:T2 
+#   Class Maps 
+#	DropLevel 71
+#   BaseType "Beach" "Factory" "Ghetto" "Oasis"
+#   SetFontSize 35 
+#	SetBackgroundColor 236 240 241
+#	SetTextColor 0 0 0
+#	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+#Show # Maps:T3 
+#   Class Maps 
+#	DropLevel 70
+#   BaseType "Arid Lake" "Cavern" "Channel" "Grotto" "Marshes" "Sewer" "Vaal Pyramid" 
+#	SetFontSize 36 
+#	SetBackgroundColor 241 196 15
+#	SetTextColor 0 0 0
+#	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+#Show # Maps:T4 
+#    Class Maps 
+#	DropLevel 71
+#    BaseType "Academy" "Acid Lake" "Dungeon" "Graveyard" "Phantasmagoria" "Villa" "Waste Pool" 
+#    SetFontSize 36 
+#	SetBackgroundColor 230 126 34
+#	SetTextColor 0 0 0
+#	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+#Show # Maps:T5 
+#    Class Maps 
+#	DropLevel = 72
+#    BaseType "Burial Chambers" "Peninsula" "Dunes" "Mesa" "Pit" "Primordial Pool" "Spider Lair" "Tower" 
+#    SetFontSize 38 
+#	SetBackgroundColor 255 0 0
+#	SetTextColor 0 0 0
+#	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+	
+	
+	
 	
 #Show
 #	BaseType "Prophecy"
@@ -52,49 +473,36 @@ Show
 
 Show
 	BaseType "Offering to the Goddess"
-	PlayAlertSound 4 300
 	SetFontSize 40
     SetBorderColor 0 0 0
     SetTextColor 0 0 0
-    SetBackgroundColor 180 0 0 255
+    SetBackgroundColor 126 135 106 255
 	
-
-	
-	
-Show
-    LinkedSockets 6
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetBackgroundColor 142 68 255
-	SetFontSize 45
-    PlayAlertSound 1 300
-Show
-    LinkedSockets 5
-	SetFontSize 40
-    SetTextColor 176 72 248
-	SetBorderColor 176 72 248
-	
-Show
-    Sockets 6
-    SetBorderColor 142 68 255
-	SetFontSize 38
-	PlayAlertSound 1 300
 	
 	# "Agate Amulet" "Rawhide Boots"
 	
 Show
 	Rarity Normal
-    BaseType "Sorcerer Boots" "Sapphire Flask" "Occultist's Vestment" "Leather Belt" "Glorious Plate" "Jewelled Foil" 
+    BaseType "Sorcerer Boots" "Sapphire Flask"
     SetBorderColor 150 0 150
 	SetFontSize 40
-	#"Glorious Plate" "Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" 
+	#"Glorious Plate" "Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" "Leather Belt"  "Glorious Plate" "Jewelled Foil"  "Occultist's Vestment" "Gavel" "Stone Hammer"
 Show
 	Rarity Unique
-	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots" "Rawhide Boots" "Vaal Regalia" "Assassin's Garb" "Jewelled Foil"
+	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Gold Ring" "Desert Brigandine" "Sorcerer Boots"
 	SetFontSize 45
-	SetBorderColor 175 96 37
-	SetBackgroundColor 255 255 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 255 255 255 255
 	PlayAlertSound 2 300
+	
+Show
+	Rarity Unique
+	BaseType "Rawhide Boots" "Vaal Regalia" "Assassin's Garb" "Jewelled Foil" "Silver Flask" "Topaz Flask" "Sorcerer Boots"
+	SetFontSize 45
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 2 300
+	
 	
 Show
 	SocketGroup WWWWWW
@@ -105,6 +513,25 @@ Show
 	SetBorderColor 255 150 000 255
 	SetTextColor 0 0 0 255
 	SetFontSize 43
+	
+Show
+    LinkedSockets 6
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 142 68 255
+	SetFontSize 45
+    PlayAlertSound 1 300
+Show
+    LinkedSockets 5
+	SetFontSize 45
+	SetBorderColor 248 71 71
+	PlayAlertSound 1 300
+	
+Show
+    Sockets 6
+    SetBorderColor 142 68 255
+	SetFontSize 38
+	PlayAlertSound 1 300
 	
 #NEVERSINK'S RARE
 	
@@ -1162,168 +1589,52 @@ Show #$bad
 #	ItemLevel > 50
 #    SetBorderColor 150 0 150
 	
-Show
-	Rarity Normal Magic Rare Unique
-    BaseType "Fishing Rod" 
-    SetTextColor 255 0 255
-    SetBorderColor 30 150 180
-    SetBackgroundColor 0 255 0
-	SetFontSize 45
-    PlayAlertSound 5 300
-
-Show
-    BaseType "Mirror of Kalandra" "Rhoa Feather" "Eternal Orb" "Exalted Orb" "Deafening Essence of "
-    SetTextColor 255 0 255
-    SetBackgroundColor 0 255 0
-    SetBorderColor 255 255 255
-	SetFontSize 45
-    PlayAlertSound 4 300
-
-Show
-    BaseType "Divine Orb" "Shrieking Essence of" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium"
-    SetBorderColor 231 76 60
-    SetTextColor 231 76 60
-	SetFontSize 45
-    PlayAlertSound 1 300
 	
+#Mid tier
 Show
-    BaseType "Regal Orb"
-    SetBorderColor 231 76 60
-    SetTextColor 231 76 60
+	Class "Divination"
+	BaseType "The Hunger" "The Cursed King" "Lysah's Respite" "Celestial Justicar" "The King's Heart" "The Aesthete" "The Fletcher" "The Dapper Prodigy" "The Void" "Chaotic Disposition"
 	SetFontSize 40
-    PlayAlertSound 1 300
-	
-Show
-    BaseType "Chaos Orb"
-    SetBorderColor 231 76 60
-    SetTextColor 231 76 60
-	SetFontSize 35
-    PlayAlertSound 1 300
-	
-Show
-	BaseType "Gemcutter's Prism" 
-	SetTextColor 224 86 69
-	SetBorderColor 224 86 69
-	PlayAlertSound 1 300
-	
-Show
-    BaseType "Vaal Orb" "Remnant of Corruption"
-	SetTextColor 214 99 80
-	SetBorderColor 214 99 80
-    PlayAlertSound 1 300
-   
-Show
-    BaseType "Orb of Regret" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Cartographer's Chisel"
-    SetTextColor 205 111 90
-    PlayAlertSound 1 300
-	
-Show
-	BaseType "Orb of Chance" "Jeweller's Orb" "Blessed Orb" 
-	SetTextColor 196 124 101
-	PlayAlertSound 1 300
-	
-Show
-	BaseType "Chromatic Orb"  "Glassblower's Bauble" 
-	SetTextColor 178 147 120
-
-Show
-	BaseType "Splinter of "
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetBackgroundColor 255 50 0 255
-	
-Show
-	BaseType "Blessing of "
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetBackgroundColor 233 0 255 255
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+	PlayAlertSound 3 300
 	
 	
-Show
-	BaseType "Apprentice Cartographer's Sextant"
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetBackgroundColor 127 140 141
-Show
-	BaseType "Journeyman Cartographer's Sextant"
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetBackgroundColor 243 156 18
-Show
-	BaseType "Master Cartographer's Sextant"
-		SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 45
-	SetBackgroundColor 192 57 43
-
-#---------
-#Essences-
-#---------
-Show
-	Class Currency
-	BaseType "Screaming Essence of"
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 15 180 200 255
-	SetFontSize 40
-	PlayAlertSound 2 300
 	
-Show
-	Class Currency
-	BaseType "Wailing Essence of"
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 30 159 200 255
-	SetFontSize 38
-	PlayAlertSound 2 300
-	
-Show
-	Class Currency
-	BaseType "Weeping Essence of"
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 30 159 200 225
-	SetFontSize 36
-	PlayAlertSound 2 300
-	
-Show
-	Class Currency
-	BaseType "Muttering Essence of"
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 30 159 200 200
-	SetFontSize 36
-	PlayAlertSound 2 300
-	
-Show
-	Class Currency
-	BaseType "Whispering Essence of"
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 30 159 200 175
-	SetFontSize 34
-	PlayAlertSound 2 300
-	
-#Lowest tier	
-Show
-	BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Alteration" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Alchemy Shard" 
-	
+#Top tier
 Show
     Class "Divination"
-    BaseType "The Harvester" "The Cursed King" "Lysah's Respite" "Emperor of Purity" "Chaotic Disposition" "Avenger" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic" "The Wind" "Celestial Justicar" "Dark Mage" "Doctor" "Fiend" "The King's Heart" "The Queen" "The Artist" "The Last One Standing" "The Artist" "The Aesthete" "Bowyer's Dream" "The Fletcher" "Hunter's Reward" "The Last One Standing" "The Thaumaturgist" "The Vast" "The Warlord" "The Offering" "The Ethereal" "The Dapper Prodigy" "The Void" "Mawr Blaidd"
+    BaseType "The Harvester" "House of Mirrors" "Wealth and Power" "The Dragon's Heart" "The Brittle Emperor" "Time-Lost Relic"
     SetFontSize 45
-    SetBorderColor 255 0 175
-    SetBackgroundColor 255 255 255 255
-    SetTextColor 255 0 175
+    SetBorderColor 0 0 0
+    SetBackgroundColor 192 252 248 255
+    SetTextColor 0 0 0
     PlayAlertSound 6 300
+
+Show
+	Class "Divination"
+	BaseType "The Doctor" "The Fiend" "The Queen" "The Artist" "The Last One Standing" "Bowyer's Dream" "Hunter's Reward" 
+    SetFontSize 45
+    SetBorderColor 0 0 0
+    SetBackgroundColor 192 252 248 255
+    SetTextColor 0 0 0
+    PlayAlertSound 6 300
+	
+Show
+	Class "Divination"
+	BaseType "The Thaumaturgist" "The Vast" "The Offering" "The Ethereal" "Mawr Blaidd" "The Sephirot" "Abandoned Wealth" "The Chains that Bind"
+    SetFontSize 45
+    SetBorderColor 0 0 0
+    SetBackgroundColor 192 252 248 255
+    SetTextColor 0 0 0
+    PlayAlertSound 6 300
+	
 	
 Show
 	Class "Divination Card"
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
-	#PlayAlertSound 1 300
+	PlayAlertSound 1 250
 
 
 	
@@ -1347,7 +1658,8 @@ Show
     Quality > 15
     SetBorderColor 46 204 113
     SetTextColor 46 204 113
-	PlayAlertSound 2 300
+	SetFontSize 38
+	PlayAlertSound 1 300
 	
 Show
     Class Gem
@@ -1521,10 +1833,46 @@ Hide # Flasks - Life - Divine+ - (over 68)
 #---------------------------------------------------- 
 # 0202 # MAP TIER LIST 
 #---------------------------------------------------- 
-
 #------------
 #Shaped maps-
 #------------
+
+Show # Maps:T16 
+    Class Maps 
+	BaseType "Pit of the Chimera" 
+	SetFontSize 45
+	PlayAlertSound 3 300
+	SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+	SetBackgroundColor 161 0 255
+	
+Show # Maps:T16 
+    Class Maps 
+	BaseType "Lair of the Hydra" 
+	SetFontSize 45
+	PlayAlertSound 3 300
+	SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+	SetBackgroundColor 64 173 106
+	
+Show # Maps:T16 
+    Class Maps 
+	BaseType "Maze of the Minotaur" 
+	SetFontSize 45
+	PlayAlertSound 3 300
+	SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+	SetBackgroundColor 255 50 0
+	
+Show # Maps:T16 
+    Class Maps 
+	BaseType "Forge of the Phoenix" 
+	SetFontSize 45
+	PlayAlertSound 3 300
+	SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+	SetBackgroundColor 230 126 34
+	
 
 Show # Maps:T6 
     Class Maps 
@@ -1575,7 +1923,7 @@ Show # Maps:T11
     Class Maps 
     BaseType "Shaped Canyon" "Shaped Quarry" "Shaped Racecourse" "Shaped Ramparts" "Shaped Spider Forest" "Shaped Strand" "Shaped Thicket" "Shaped Vaal City" "Shaped Wharf"
     SetFontSize 42 
-	SetBackgroundColor 241 196 15
+	SetBackgroundColor 119 12 1
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
     #PlayAlertSound 3 200 
@@ -1616,6 +1964,59 @@ Show # Maps:T15
     SetBorderColor 0 0 0 255 
     SetBackgroundColor 255 57 43
 
+#-----------------------
+#Low maps in high tiers-
+#-----------------------
+Show # Maps:T1 
+    Class Maps 
+	DropLevel < 79
+    BaseType "Arcade" "Desert" "Crystal Ore" "Jungle Valley"
+    SetFontSize 34 
+	SetBackgroundColor 200 200 200 100
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T2 
+    Class Maps 
+	DropLevel < 79
+    BaseType "Beach" "Factory" "Ghetto" "Oasis"
+    SetFontSize 35 
+	SetBackgroundColor 210 210 210 100
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T3 
+    Class Maps 
+	DropLevel < 79
+    BaseType "Arid Lake" "Cavern" "Channel" "Grotto" "Marshes" "Sewer" "Vaal Pyramid" 
+    SetFontSize 36 
+	SetBackgroundColor 220 220 220 100
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T4 
+    Class Maps 
+	DropLevel < 79
+    BaseType "Academy" "Acid Lake" "Dungeon" "Graveyard" "Phantasmagoria" "Villa" "Waste Pool" 
+    SetFontSize 37 
+	SetBackgroundColor 230 230 230 100
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+
+Show # Maps:T5 
+    Class Maps 
+	DropLevel < 79
+    BaseType "Burial Chambers" "Peninsula" "Dunes" "Mesa" "Pit" "Primordial Pool" "Spider Lair" "Tower" 
+    SetFontSize 38 
+	SetBackgroundColor 240 240 240 120
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+	
 #-----------
 #Unique map-
 #-----------
@@ -1625,6 +2026,24 @@ Show # Maps:Unique
     SetFontSize 40 
     #PlayAlertSound 6 300
 
+Show # Maps:T12 
+    Class Maps 
+    BaseType "Ivory Temple"
+    SetFontSize 43 
+	SetBackgroundColor 152 17 3
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0	
+    PlayAlertSound 3 200 
+	
+Show # Maps:T16 
+    Class Maps 
+	BaseType "Vaal Temple"
+	SetFontSize 45
+	PlayAlertSound 3 300
+	SetTextColor 192 57 43
+    SetBorderColor 192 57 43
+	SetBackgroundColor 0 0 0 255
+	
 Show # Maps:T1 
     Class Maps 
     BaseType "Arcade" "Desert" "Crystal Ore" "Jungle Valley"
@@ -1672,7 +2091,7 @@ Show # Maps:T5
 
 Show # Maps:T6 
     Class Maps 
-    BaseType "Canyon" "Racecourse" "Ramparts" "Spider Forest" "Strand" "Thicket" "Vaal City" "Wharf"
+    BaseType "Canyon" "Racecourse" "Ramparts" "Spider Forest" "Strand" "Thicket" "Vaal City" "Wharf" "Quarry"
     SetFontSize 39 
 	SetBackgroundColor 150 110 0
 	SetTextColor 0 0 0
@@ -1719,14 +2138,14 @@ Show # Maps:T11
     Class Maps 
     BaseType "Bazaar" "Chateau" "Excavation" "Precinct" "Torture Chamber" "Underground Sea" "Wasteland" 
     SetFontSize 42 
-	SetBackgroundColor 241 196 15
+	SetBackgroundColor 119 12 1
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
     #PlayAlertSound 3 200 
 
 Show # Maps:T12 
     Class Maps 
-    BaseType "Crematorium" "Estuary" "Necropolis" "Plateau" "Ivory Temple" "Residence" "Shipyard" "Vault"
+    BaseType "Crematorium" "Estuary" "Necropolis" "Plateau" "Residence" "Shipyard" "Vault"
     SetFontSize 43 
 	SetBackgroundColor 152 17 3
 	SetTextColor 0 0 0
@@ -1744,7 +2163,7 @@ Show # Maps:T13
 
 Show # Maps:T14 
     Class Maps 
-    BaseType "Maze" "Mineral Pools" "Palace" "Shrine" "Springs" "Volcano" 
+    BaseType "Maze Map" "Mineral Pools" "Palace" "Shrine" "Springs" "Volcano" 
     SetFontSize 45 
 	PlayAlertSound 3 200 
 	SetTextColor 0 0 0
@@ -1760,14 +2179,8 @@ Show # Maps:T15
     SetBorderColor 0 0 0 255 
     SetBackgroundColor 255 57 43
 
-Show # Maps:T16 
-    Class Maps 
-	BaseType "Pit of the Chimera" "Lair of the Hydra" "Maze of the Minotaur" "Forge of the Phoenix" "Vaal Temple"
-	SetFontSize 45
-	PlayAlertSound 3 300
-	SetTextColor 0 0 0 255 
-    SetBorderColor 0 0 0 255 
-	SetBackgroundColor 255 57 60
+
+
 	
 #Show
 #    Class Maps
@@ -1808,16 +2221,39 @@ Show
 Show
 	Class Map Fragments
 	BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
-	SetBackgroundColor 70 80 80
-	SetTextColor 230 126 34
-	SetBorderColor 230 126 34
+	SetFontSize 40
+	SetBackgroundColor 0 0 0 255
+	SetTextColor 155 89 182
+	SetBorderColor 155 89 182
 	
 Show
 	Class Map Fragments
-	BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra" 
-	SetBackgroundColor 34 230 197
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
+	BaseType "Fragment of the Phoenix"
+	SetBackgroundColor 0 0 0
+	SetFontSize 45
+	SetTextColor 230 126 34
+	SetBorderColor 230 126 34
+Show
+	Class Map Fragments
+	BaseType "Fragment of the Minotaur"
+	SetBackgroundColor 0 0 0
+	SetFontSize 45
+	SetTextColor 255 50 0
+	SetBorderColor 255 50 0
+Show
+	Class Map Fragments
+	BaseType "Fragment of the Chimera"
+	SetBackgroundColor 0 0 0
+	SetFontSize 45
+	SetTextColor 161 0 255
+	SetBorderColor 161 0 255
+Show
+	Class Map Fragments
+	BaseType "Fragment of the Hydra" 
+	SetBackgroundColor 0 0 0
+	SetFontSize 45
+	SetTextColor 64 173 106
+	SetBorderColor 64 173 106
 	
 Show
 	Class Map Fragments
@@ -1856,10 +2292,16 @@ Show
 	Rarity Rare
 	SetBorderColor 214 99 80
 
+Show
+	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
+	SetFontSize 40
+	SetBorderColor 255 255 255
+	PlayAlertSound 1 300
+	
 	
 Show
-	BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	
 Show
 	Rarity Normal
 	BaseType "Leather Belt" "Amethyst Ring" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Topaz Ring" "Ruby Ring" "Sapphire Ring" "Gold Amulet" "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet"
@@ -1878,7 +2320,7 @@ Show
 #Amulets
 Show
 	Rarity Rare
-	BaseType "Leather Belt" "Amethyst Ring" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Topaz Ring" "Ruby Ring" "Sapphire Ring" "Gold Amulet" "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet"
+	BaseType "Chain Belt" "Topaz Ring" "Leather Belt" "Amethyst Ring" "Diamond Ring" "Two-Stone Ring" "Unset Ring" "Ruby Ring" "Sapphire Ring" "Gold Amulet" "Amber Amulet" "Onyx Amulet" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet"
 	SetBorderColor 255 255 119 150
 	
 #Crafting Bases Weapons
@@ -2021,41 +2463,56 @@ Show
 	
 Show
 #Hide
-	Rarity Normal
+	Rarity Normal Magic
 	BaseType "Hubris Circlet" "Sorcerer Boots" "Sorcerer Gloves" "Crude Bow"
-	ItemLevel >= 72
+	ItemLevel >= 84
 	SetFontSize 35
 	SetBackgroundColor 0 0 0 255
 Show
 #Hide
-	Rarity Normal
+	Rarity Normal Magic
 	BaseType "Titanium Spirit Shield"
-	ItemLevel >= 75
+	ItemLevel >= 84
 	SetFontSize 35
 	SetBackgroundColor 0 0 0 255	
 	
 Show
 #Hide
-	Rarity Magic
+	Rarity Normal Magic
 	BaseType "Vaal Regalia"
-	ItemLevel >= 69
+	ItemLevel >= 84
 	SetFontSize 20
 	#SetFontSize 28
 	SetBackgroundColor 0 0 0 150	
 	
+Show
+	Class "Currency"
+	
+Show
+	Identified True
+	SetFontSize 35
 	
 #Show
 Hide
+	Class "Body Armour" "Boots" "Gloves" "Helmet" "Shield" "Axe" "Bow" "Quiver" "Claw" "Dagger" "Mace" "Staves" "Sword" "Sceptre" "Wand" "Ring" "Amulet" "Belt"
 	Rarity Normal
 	SetFontSize 20
 	#SetFontSize 28
 	SetBackgroundColor 0 0 0 150
 	
+	
 #Show
 Hide
+	Class "Body Armour" "Boots" "Gloves" "Helmet" "Shield" "Axe" "Bow" "Quiver" "Claw" "Dagger" "Mace" "Staves" "Sword" "Sceptre" "Wand" "Ring" "Amulet" "Belt"
 	Rarity Magic
 	SetFontSize 23
 	#SetFontSize 28
+	SetBackgroundColor 0 0 0 200
+	
+Hide
+	Class "Flask"
+	Rarity Normal Magic
+	SetFontSize 20
 	SetBackgroundColor 0 0 0 200
 
 #Debug Mode
