@@ -8,3 +8,7 @@ Open Path of Exile, log in and go into Settings -> UI, scroll down to Item Filte
 
 
 https://twitter.com/Fawcan
+
+Added a Notepad++ language file.
+
+Just import "Fawcan-Language-Notepad++" into Notepad++ and select that language.

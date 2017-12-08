@@ -26,6 +26,30 @@ Show
 	SetBackgroundColor 175 96 37 255
 	SetFontSize 45
 	
+#Abyss Jewels
+Show
+	Class "Abyss Jewel"
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize 35
+	PlayAlertSound 1 300
+	
+#Special Items
+Show
+	ElderItem True
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+	SetBackgroundColor 0 0 0
+	SetFontSize 40
+	
+Show
+	ShaperItem True
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+	SetBackgroundColor 0 0 0
+	SetFontSize 40
+	
 #Leaguestones
 
 Show
@@ -239,7 +263,7 @@ Show
 	PlayAlertSound 1 300
 	
 #Show
-#    BaseType 
+#   BaseType 
 #	SetTextColor 214 99 80
 #	SetBorderColor 214 99 80
 #	SetFontSize 36
@@ -298,14 +322,14 @@ Show
 	BaseType "Splinter of Xoph"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
-	SetBackgroundColor 196 72 72
+	SetBackgroundColor 196 72 72 255
 	
 Show
 	BaseType "Blessing of Xoph"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetFontSize 45
-	SetBackgroundColor 196 72 72
+	SetBackgroundColor 196 72 72 255
 #---------
 #-- Esh --
 #---------
@@ -313,14 +337,14 @@ Show
 	BaseType "Splinter of Esh"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
-	SetBackgroundColor 45 142 191
+	SetBackgroundColor 45 142 191 255
 	
 Show
 	BaseType "Blessing of Esh"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetFontSize 45
-	SetBackgroundColor 45 142 191
+	SetBackgroundColor 45 142 191 255
 #---------
 #-- Tul --
 #---------
@@ -328,14 +352,14 @@ Show
 	BaseType "Splinter of Tul"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
-	SetBackgroundColor 232 232 232
+	SetBackgroundColor 232 232 232 255
 	
 Show
 	BaseType "Blessing of Tul"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetFontSize 45
-	SetBackgroundColor 232 232 232
+	SetBackgroundColor 232 232 232 255
 #----------
 #-- Uul-Netol --
 #----------
@@ -343,14 +367,14 @@ Show
 	BaseType "Splinter of Uul-Netol"
 	SetTextColor 200 200 200
 	SetBorderColor 200 200 200
-	SetBackgroundColor 51 51 51
+	SetBackgroundColor 51 51 51 255
 	
 Show
 	BaseType "Blessing of Uul-Netol"
 	SetTextColor 200 200 200
 	SetBorderColor 200 200 200
 	SetFontSize 45
-	SetBackgroundColor 51 51 51
+	SetBackgroundColor 51 51 51 255
 
 #-------------
 #-- Chayula --
@@ -359,14 +383,14 @@ Show
 	BaseType "Splinter of Chayula"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
-	SetBackgroundColor 146 71 153
+	SetBackgroundColor 146 71 153 255
 	
 Show
 	BaseType "Blessing of Chayula"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetFontSize 45
-	SetBackgroundColor 146 71 153
+	SetBackgroundColor 146 71 153 255
 	
 #---------------------------------------
 	
@@ -376,18 +400,23 @@ Show
 	SetBorderColor 0 0 0
 	SetFontSize 35
 	SetBackgroundColor 224 244 244
+	PlayAlertSound 1 300
+	
 Show
 	BaseType "Journeyman Cartographer's Sextant"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
-	SetFontSize 35
+	SetFontSize 37
 	SetBackgroundColor 243 156 18
+	PlayAlertSound 1 300
+	
 Show
 	BaseType "Master Cartographer's Sextant"
-		SetTextColor 0 0 0
+	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
-	SetFontSize 35
+	SetFontSize 40
 	SetBackgroundColor 192 57 43
+	PlayAlertSound 10 300
 
 #---------
 #Essences-
@@ -638,7 +667,7 @@ Show
 	SetBackgroundColor 243 156 18
 	
 
-	
+#T1 uniques
 Show
 	Rarity Unique
 	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Ruby Flask" "Gold Ring" "Sorcerer Boots" "Two-Stone Ring" "Deicide Mask" "Crusader Boots"
@@ -646,6 +675,24 @@ Show
 	SetBorderColor 175 96 37 255
 	SetBackgroundColor 255 255 255 255
 	PlayAlertSound 2 300
+
+#Unique cont.
+Show
+	Rarity Unique
+	BaseType "Mosaic Kite Shield" "Gold Amulet" "Rawhide Tower Shield" "Ritual Sceptre"
+	SetFontSize 45
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 2 300
+
+#Show
+	#Rarity Unique
+	#BaseType 
+	#SetFontSize 45
+	#SetBorderColor 175 96 37 255
+	#SetBackgroundColor 255 255 255 255
+	#SetTextColor 175 96 37 255
+	#PlayAlertSound 6 300
 	
 Show
 	Rarity Unique
@@ -689,10 +736,10 @@ Show
 	#Chance items
 Show
 	Rarity Normal
-    BaseType "Sorcerer Boots" "Sapphire Flask" "Leather Belt" "Occultist's Vestment" "Glorious Plate" "Mosaic Kite Shield"
+    BaseType "Sorcerer Boots" "Sapphire Flask" "Occultist's Vestment" "Glorious Plate" "Mosaic Kite Shield" "Full Wyrmscale" "Gold Amulet"
     SetBorderColor 150 0 150
 	SetFontSize 40
-	#"Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" "Glorious Plate" "Jewelled Foil" "Champion Kite Shield" "Gavel" "Stone Hammer"
+	#"Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" "Jewelled Foil" "Champion Kite Shield" "Gavel" "Stone Hammer" "Leather Belt"
 	
 #NEVERSINK'S RARE
 	
@@ -1089,7 +1136,7 @@ Show #$good
     SetBackgroundColor 30 90 45 230
     SetFontSize 35
     SetBorderColor 0 0 0
- 
+
 #----------------------------------------------------
 #BAD 1H MACES/AXES
 #Anything with a <50lvl base won't be a priority pickup while maping.
@@ -1117,7 +1164,8 @@ Show #$bad, small
     Height <= 2
     Width <= 2
     SetFontSize 28
- 
+
+
 Show #$bad
     Class "One Hand Maces" "One Hand Axes"
     Rarity Rare
@@ -1164,7 +1212,7 @@ Show #$bad
 #----------------------------------------------------
 #Any sceptre can be good, however some sceptres are better pickups, because of their base or their implicit
 #GOOD SCEPTRES
- 
+
 Show #$good
     Class "Sceptres"
     Rarity Rare
@@ -1641,7 +1689,7 @@ Show #$bad
     SetBackgroundColor 120 20 20 150
     SetBorderColor 0 0 0 220
     SetFontSize 28
- 
+
 Show #$bad, small
     Class "Shields"
     Rarity Rare
@@ -1733,10 +1781,6 @@ Show #$bad
     SetBackgroundColor 120 20 20 150
     SetBorderColor 0 0 0 220
     SetFontSize 28
-	
-	
-
-#------------------------------------------------------------------------------------------------------------------------------------
 
 	
 #Show
@@ -1765,7 +1809,16 @@ Hide
 #Mid tier. 10c - 29c
 Show
 	Class "Divination"
-	BaseType "The Dragon's Heart" "The Wolf" "The Celestial Justicar" "The Last One Standing" "The Standoff" "Abandoned Wealth" "The Brittle Emperor" "Wealth and Power" "Last Hope" "The Artist" "Bowyer's Dream"
+	BaseType "The Dragon's Heart" "The Wolf" "The Celestial Justicar" "The Last One Standing" "The Standoff" "Abandoned Wealth" "The Brittle Emperor" "Wealth and Power" "Last Hope"
+	SetFontSize 40
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+	PlayAlertSound 3 300
+
+#Mid tier cont.
+Show
+	Class "Divination"
+	BaseType "The Artist" "Bowyer's Dream" "The Sun" "Left to Fate" "No Traces"
 	SetFontSize 40
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
@@ -1774,14 +1827,14 @@ Show
 #Mid tier. Good cards.
 Show
 	Class "Divination"
-	BaseType "The Formless Sea" "The Thaumaturgist" "The Wolven King's Bite" "Heterochromia" "The Enlightened" "The Polymath" "The Sephirot" "The Valkyrie" "The Fletcher" "The Saint's Treasure" "Time-Lost Relic"
+	BaseType "The Formless Sea" "The Thaumaturgist" "The Wolven King's Bite" "Heterochromia" "The Enlightened" "The Polymath" "The Sephirot" "The Valkyrie" "The Fletcher" "The Saint's Treasure"
 	SetFontSize 40
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
 	PlayAlertSound 3 300
 Show #Cont
 	Class "Divination"
-	BaseType "The Ethereal" "The Offering" "The Dapper Prodigy" "The Void" "The Vast" "Chaotic Disposition" "Lucky Deck" "The Cartographer" "The Risk"
+	BaseType "The Ethereal" "The Offering" "The Dapper Prodigy" "The Void" "The Vast" "Chaotic Disposition" "Lucky Deck" "The Cartographer" "The Risk" "Time-Lost Relic"
 	SetFontSize 40
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
@@ -2063,9 +2116,25 @@ Show # Maps:T16
 	SetBackgroundColor 230 126 34
 	
 
+#----------------
+#-- Shaped Maps -
+#----------------
+	
+Show # Maps:T10 - Ivory Temple
+    Class Maps 
+    BaseType "Ivory Temple"
+    ShapedMap True
+	SetFontSize 42 
+	SetBackgroundColor 221 176 5 255
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    #PlayAlertSound 4 300 
+	
+	
 Show # Maps:T6 
     Class Maps 
-    BaseType "Shaped Arcade" "Shaped Crystal Ore" "Shaped Desert" "Shaped Jungle Valley"
+    BaseType "Lookout" "Beach" "Graveyard" "Dungeon"
+	ShapedMap True
     SetFontSize 39 
 	SetBackgroundColor 150 110 0 255
 	SetTextColor 0 0 0
@@ -2074,8 +2143,9 @@ Show # Maps:T6
 
 Show # Maps:T7 
     Class Maps 
-    BaseType "Shaped Beach" "Shaped Factory" "Shaped Ghetto" "Shaped Oasis"
-    SetFontSize 40 
+    BaseType "Alleyways" "Pen" "Desert" "Arid Lake" "Flooded Mine" "Marshes"
+    ShapedMap True
+	SetFontSize 40 
 	SetBackgroundColor 161 116 0 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -2083,8 +2153,9 @@ Show # Maps:T7
 
 Show # Maps:T8 
     Class Maps 
-    BaseType "Shaped Arid Lake" "Shaped Cavern" "Shaped Channel" "Shaped Grotto" "Shaped Marshes" "Shaped Sewer" "Shaped Vaal Pyramid"
-    SetFontSize 41 
+    BaseType "Iceberg" "Cage" "Springs" "Excavation" "Leyline" "Peninsula" "Port" "Burial Chambers" "Cells" "Arcade"
+    ShapedMap True
+	SetFontSize 41 
 	SetBackgroundColor 181 136 0 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -2092,8 +2163,9 @@ Show # Maps:T8
 
 Show # Maps:T9 
     Class Maps 
-    BaseType "Shaped Academy" "Shaped Acid Lakes" "Shaped Dungeon" "Shaped Graveyard" "Shaped Phantasmagoria" "Shaped Villa" "Shaped Waste Pool"
-    SetFontSize 41 
+    BaseType "City Square" "Relic Chambers" "Courthouse" "Strand" "Chateau" "Grotto" "Gorge" "Volcano" "Lighthouse" "Canyon"
+    ShapedMap True
+	SetFontSize 41 
 	SetBackgroundColor 201 156 0 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -2101,8 +2173,9 @@ Show # Maps:T9
 
 Show # Maps:T10 
     Class Maps 
-    BaseType "Shaped Burial Chambers" "Shaped Peninsula" "Shaped Dunes" "Shaped Mesa" "Shaped Pit" "Shaped Primordial Pool" "Shaped Spider Lair" "Shaped Tower"
-    SetFontSize 42 
+    BaseType "Conservatory" "Sulphur Vents" "Haunted Mansion" "Maze" "Channel" "Toxic Sewer" "Ancient City" "Ivory Temple" "Spider Lair" "Barrows"
+    ShapedMap True
+	SetFontSize 42 
 	SetBackgroundColor 221 176 5 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -2110,17 +2183,19 @@ Show # Maps:T10
 
 Show # Maps:T11 
     Class Maps 
-    BaseType "Shaped Canyon" "Shaped Quarry" "Shaped Racecourse" "Shaped Ramparts" "Shaped Spider Forest" "Shaped Strand" "Shaped Thicket" "Shaped Vaal City" "Shaped Wharf"
-    SetFontSize 42 
+    BaseType "Mausoleum" "Fields" "Jungle Valley" "Phantasmagoria" "Academy" "Thicket" "Wharf" "Ashen Wood" "Atoll" "Cemetery" "Underground Sea"
+    ShapedMap True
+	SetFontSize 42 
 	SetBackgroundColor 119 12 1 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
     #PlayAlertSound 3 200 
-
+ 
 Show # Maps:T12 
     Class Maps 
-    BaseType "Shaped Arachnid Tomb" "Shaped Castle Ruins" "Shaped Catacombs" "Shaped Cells" "Shaped Armoury" "Shaped Ashen Wood" "Shaped Mud Geyser"
-    SetFontSize 43 
+    BaseType "Tribunal" "Coral Ruins" "Lava Chamber" "Residence" "Ramparts" "Dunes" "Bone Crypt" "Underground River" "Gardens" "Arachnid Nest" "Bazaar"
+    ShapedMap True
+	SetFontSize 43 
 	SetBackgroundColor 152 17 3 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -2128,8 +2203,9 @@ Show # Maps:T12
 
 Show # Maps:T13 
     Class Maps 
-    BaseType "Shaped Arachnid Nest" "Shaped Arena" "Shaped Bog" "Shaped Cemetery" "Shaped Barrows" "Shaped Atoll" "Shaped Pier" "Shaped Shore" "Shaped Tropical Island"
-    SetFontSize 44 
+	BaseType "Laboratory" "Infested Valley" "Overgrown Ruin" "Vaal Pyramid" "Geode" "Armoury" "Courtyard" "Mud Geyser" "Shore" "Tropical Island" "Mineral Pools"
+    ShapedMap True
+	SetFontSize 44 
 	SetBackgroundColor 172 37 23 255
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
@@ -2137,139 +2213,48 @@ Show # Maps:T13
 
 Show # Maps:T14 
     Class Maps 
-    BaseType "Shaped Coves" "Shaped Crypt" "Shaped Museum" "Shaped Orchard" "Shaped Overgrown Shrine" "Shaped Promenade" "Shaped Reef" "Shaped Temple"
+    BaseType "Moon Temple" "Sepulchre" "Tower" "Waste Pool" "Plateau" "Estuary" "Vault" "Temple" "Arena" "Museum" "Scriptorium"
+    ShapedMap True
+	SetFontSize 45 
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 192 57 43 255
+	PlayAlertSound 3 200 
+
+Show # Maps:T15 
+    Class Maps 
+    BaseType "Siege" "Shipyard" "Belfry" "Arachnid Tomb" "Wasteland" "Precinct" "Bog" "Pier" "Cursed Crypt" "Orchard"
+    ShapedMap True
+	SetFontSize 45 
+    SetTextColor 0 0 0 255 
+    SetBorderColor 0 0 0 255 
+    SetBackgroundColor 255 57 43 255
+	PlayAlertSound 3 300 
+	
+
+#----------------
+#----- Maps -----
+#----------------
+
+Show # Maps:T13 - Desert Springs
+    Class Maps 
+    BaseType "Desert Springs"
+    SetFontSize 44 
+	SetBackgroundColor 172 37 23 255
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
+
+Show # Maps:14 - Crimson Temple
+    Class Maps 
+    BaseType "Crimson Temple"
     SetFontSize 45 
 	PlayAlertSound 3 200 
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetBackgroundColor 192 57 43 255
 
-Show # Maps:T15 
-    Class Maps 
-    BaseType "Shaped Colonnade" "Shaped Arsenal" "Shaped Courtyard" "Shaped Malformation" "Shaped Port" "Shaped Terrace" "Shaped Underground River"
-    SetFontSize 45 
-    PlayAlertSound 3 300 
-    SetTextColor 0 0 0 255 
-    SetBorderColor 0 0 0 255 
-    SetBackgroundColor 255 57 43 255
-
-	
-#Pantheon maps
-#Tier 1
-#Show
-#	Class Maps
-#	BaseType "Arcade"
-	
-#Tier 2
-#Show
-#	Class Maps
-#	BaseType 
-	
-#Tier 3
-#Show
-#	Class Maps
-#	BaseType "Sewer" "Channel" "Cavern" "Marshes" 
-	
-#Tier 4
-#Show
-#	Class Maps
-#	BaseType "Waste Pool" "Dungeon" "Graveyard"
-	
-#Tier 6
-#Show
-#	Class Maps	
-#	BaseType "Ramparts" "Vaal City" 
-	
-#Tier 7
-#Show
-#	Class Maps	
-#	BaseType "Ashen Wood"
-	
-#Tier 13
-#Show
-#	Class Maps	
-#	BaseType "High Gardens" "Waterways" "Lair" 
-	
-#Tier 14
-#Show
-#	Class Maps	
-#	BaseType "Maze"
-	
-
-	
-#--------------------------
-#-- TEST -- Removes T1-8 --
-#--------------------------
-#REMOVED GOES HERE
-
-
-
-#REMOVED GOES HERE
-	
-#-----------------------
-#Low maps in high tiers-
-#-----------------------
-Show # Maps:T1 
-    Class Maps 
-#	DropLevel < 79
-    BaseType "Arcade" "Desert" "Crystal Ore" "Jungle Valley"
-    SetFontSize 34 
-	SetBackgroundColor 200 200 200 
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-    #PlayAlertSound 4 300 
-
-Show # Maps:T2 
-    Class Maps 
-#	DropLevel < 79
-    BaseType "Beach" "Factory" "Ghetto" "Oasis"
-    SetFontSize 35 
-	SetBackgroundColor 210 210 210 
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-    #PlayAlertSound 4 300 
-
-Show # Maps:T3 
-    Class Maps 
-#	DropLevel < 79
-    BaseType "Arid Lake" "Cavern" "Channel" "Grotto" "Marshes" "Sewer" "Vaal Pyramid" 
-    SetFontSize 36 
-	SetBackgroundColor 220 220 220 
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-    #PlayAlertSound 4 300 
-
-Show # Maps:T4 
-    Class Maps 
-#	DropLevel < 79
-    BaseType "Academy" "Acid Lake" "Dungeon" "Graveyard" "Phantasmagoria" "Villa" "Waste Pool" 
-    SetFontSize 37 
-	SetBackgroundColor 230 230 230 
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-    #PlayAlertSound 4 300 
-
-Show # Maps:T5 
-    Class Maps 
-#	DropLevel < 79
-    BaseType "Burial Chambers" "Peninsula" "Dunes" "Mesa" "Pit" "Primordial Pool" "Spider Lair" "Tower" 
-    SetFontSize 38 
-	SetBackgroundColor 240 240 240 
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-    #PlayAlertSound 4 300 
-	
-
-Show # Maps:T12 
-    Class Maps 
-    BaseType "Ivory Temple"
-    SetFontSize 43 
-	SetBackgroundColor 152 17 3 255
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0	
-    PlayAlertSound 3 200 
-	
-Show # Maps:T16 
+Show # Maps:T16 - Vaal Temple
     Class Maps 
 	BaseType "Vaal Temple"
 	SetFontSize 45
@@ -2280,7 +2265,7 @@ Show # Maps:T16
 	
 Show # Maps:T1 
     Class Maps 
-    BaseType "Arcade" "Desert" "Crystal Ore" "Jungle Valley"
+    BaseType "Lookout" "Beach" "Graveyard" "Dungeon"
     SetFontSize 34 
 	SetBackgroundColor 200 200 200 255
 	SetTextColor 0 0 0
@@ -2289,7 +2274,7 @@ Show # Maps:T1
 
 Show # Maps:T2 
     Class Maps 
-    BaseType "Beach" "Factory" "Ghetto" "Oasis"
+    BaseType "Alleyways" "Pen" "Desert" "Arid Lake" "Flooded Mine" "Marshes"
     SetFontSize 35 
 	SetBackgroundColor 210 210 210 255
 	SetTextColor 0 0 0
@@ -2298,7 +2283,7 @@ Show # Maps:T2
 
 Show # Maps:T3 
     Class Maps 
-    BaseType "Arid Lake" "Cavern" "Channel" "Grotto" "Marshes" "Sewer" "Vaal Pyramid" 
+    BaseType "Iceberg" "Cage" "Springs" "Excavation" "Leyline" "Peninsula" "Port" "Burial Chambers" "Cells" "Arcade"
     SetFontSize 36 
 	SetBackgroundColor 220 220 220 255
 	SetTextColor 0 0 0
@@ -2307,7 +2292,7 @@ Show # Maps:T3
 
 Show # Maps:T4 
     Class Maps 
-    BaseType "Academy" "Acid Lake" "Dungeon" "Graveyard" "Phantasmagoria" "Villa" "Waste Pool" 
+    BaseType "City Square" "Relic Chambers" "Courthouse" "Strand" "Chateau" "Grotto" "Gorge" "Volcano" "Lighthouse" "Canyon"
     SetFontSize 37 
 	SetBackgroundColor 230 230 230 255
 	SetTextColor 0 0 0
@@ -2316,7 +2301,7 @@ Show # Maps:T4
 
 Show # Maps:T5 
     Class Maps 
-    BaseType "Burial Chambers" "Peninsula" "Dunes" "Mesa" "Pit" "Primordial Pool" "Spider Lair" "Tower" 
+    BaseType "Conservatory" "Sulphur Vents" "Haunted Mansion" "Maze" "Channel" "Toxic Sewer" "Ancient City" "Ivory Temple" "Spider Lair" "Barrows"
     SetFontSize 38 
 	SetBackgroundColor 240 240 240 255
 	SetTextColor 0 0 0
@@ -2325,7 +2310,7 @@ Show # Maps:T5
 
 Show # Maps:T6 
     Class Maps 
-    BaseType "Canyon" "Racecourse" "Ramparts" "Spider Forest" "Strand" "Thicket" "Vaal City" "Wharf" "Quarry"
+    BaseType "Mausoleum" "Fields" "Jungle Valley" "Phantasmagoria" "Academy" "Thicket" "Wharf" "Ashen Wood" "Atoll" "Cemetery" "Underground Sea"
     SetFontSize 39 
 	SetBackgroundColor 150 110 0 255
 	SetTextColor 0 0 0
@@ -2334,7 +2319,7 @@ Show # Maps:T6
 
 Show # Maps:T7 
     Class Maps 
-    BaseType "Arachnid Tomb" "Castle Ruins" "Catacombs" "Cells" "Armoury" "Ashen Wood" "Mud Geyser"
+    BaseType "Tribunal" "Coral Ruins" "Lava Chamber" "Residence" "Ramparts" "Dunes" "Bone Crypt" "Underground River" "Gardens" "Arachnid Nest" "Bazaar"
     SetFontSize 40 
 	SetBackgroundColor 161 116 0 255
 	SetTextColor 0 0 0
@@ -2343,7 +2328,7 @@ Show # Maps:T7
 
 Show # Maps:T8 
     Class Maps 
-    BaseType "Arachnid Nest" "Arena" "Bog" "Cemetery" "Barrows" "Atoll" "Pier" "Shore" "Tropical Island" 
+    BaseType "Laboratory" "Infested Valley" "Overgrown Ruin" "Vaal Pyramid" "Geode" "Armoury" "Courtyard" "Mud Geyser" "Shore" "Tropical Island" "Mineral Pools"
     SetFontSize 41 
 	SetBackgroundColor 181 136 0 255
 	SetTextColor 0 0 0
@@ -2352,7 +2337,7 @@ Show # Maps:T8
 
 Show # Maps:T9 
     Class Maps 
-    BaseType "Coves" "Crypt" "Museum" "Orchard" "Overgrown Shrine" "Promenade" "Reef" "Temple"
+    BaseType "Moon Temple" "Sepulchre" "Tower" "Waste Pool" "Plateau" "Estuary" "Vault" "Temple" "Arena" "Museum" "Scriptorium"
     SetFontSize 41 
 	SetBackgroundColor 201 156 0 255
 	SetTextColor 0 0 0
@@ -2361,7 +2346,7 @@ Show # Maps:T9
 
 Show # Maps:T10 
     Class Maps 
-    BaseType "Colonnade" "Arsenal" "Courtyard" "Malformation" "Port" "Terrace" "Underground River"
+    BaseType "Siege" "Shipyard" "Belfry" "Arachnid Tomb" "Wasteland" "Precinct" "Bog" "Pier" "Cursed Crypt" "Orchard"
     SetFontSize 42 
 	SetBackgroundColor 221 176 5 255
 	SetTextColor 0 0 0
@@ -2370,7 +2355,7 @@ Show # Maps:T10
 
 Show # Maps:T11 
     Class Maps 
-    BaseType "Bazaar" "Chateau" "Excavation" "Precinct" "Torture Chamber" "Underground Sea" "Wasteland" 
+    BaseType "Promenade" "Lair" "Colonnade" "Promordial Pool" "Spider Forest" "Coves" "Waterways" "Factory" "Mesa" "Pit"
     SetFontSize 42 
 	SetBackgroundColor 119 12 1 255
 	SetTextColor 0 0 0
@@ -2379,7 +2364,7 @@ Show # Maps:T11
 
 Show # Maps:T12 
     Class Maps 
-    BaseType "Crematorium" "Estuary" "Necropolis" "Plateau" "Residence" "Shipyard" "Vault"
+    BaseType "Defiled Cathedral" "Summit" "Overgrown Shrine" "Castle Ruins" "Crystal Ore" "Villa" "Torture Chamber" "Necropolis" "Racecourse"
     SetFontSize 43 
 	SetBackgroundColor 152 17 3 255
 	SetTextColor 0 0 0
@@ -2388,7 +2373,7 @@ Show # Maps:T12
 
 Show # Maps:T13 
     Class Maps 
-    BaseType "Lair" "Beacon" "Gorge" "High Gardens" "Plaza" "Scriptorium" "Sulphur Wastes" "Waterways" 
+    BaseType "Caldera" "Ghetto" "Park" "Malformation" "Terrace" "Shrine" "Arsenal" "Desert Springs" "Core"
     SetFontSize 44 
 	SetBackgroundColor 172 37 23 255
 	SetTextColor 0 0 0
@@ -2397,7 +2382,7 @@ Show # Maps:T13
 
 Show # Maps:T14 
     Class Maps 
-    BaseType "Maze Map" "Mineral Pools" "Palace" "Shrine" "Springs" "Volcano" 
+    BaseType "Colosseum" "Acid Lakes" "Dark Forest" "Crimson Temple" "Plaza" "Dig" "Palace"
     SetFontSize 45 
 	PlayAlertSound 3 200 
 	SetTextColor 0 0 0
@@ -2406,19 +2391,15 @@ Show # Maps:T14
 
 Show # Maps:T15 
     Class Maps 
-    BaseType "Abyss" "Colosseum" "Core" "Dark Forest" "Overgrown Ruin"
+    BaseType "Lava Lake" "Basilica" "Sunken City" "Reef" "Carcass"
     SetFontSize 45 
     PlayAlertSound 3 300 
     SetTextColor 0 0 0 255 
     SetBorderColor 0 0 0 255 
     SetBackgroundColor 255 57 43 255
-
-
-
 	
-#Show
-#    Class Maps
-#    PlayAlertSound 2
+
+#Other maps that are missed
 
 Show 
     Class Maps
@@ -2503,14 +2484,43 @@ Show
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
 
+#Most expensive
 Show
 	Class Map Fragments
-	BaseType "Mortal"
-	SetBackgroundColor 120 20 20
+	BaseType "Mortal Hope"
+	SetBackgroundColor 225 20 20 255
 	SetFontSize 45
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
 	PlayAlertSound 4 300
+	
+Show
+	Class Map Fragments
+	BaseType "Mortal Ignorance"
+	SetBackgroundColor 170 20 20 255
+	SetFontSize 40
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	PlayAlertSound 3 300
+	
+Show
+	Class Map Fragments
+	BaseType "Mortal Rage"
+	SetBackgroundColor 130 20 20 255
+	SetFontSize 35
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	PlayAlertSound 3 300
+	
+#Cheapest
+Show
+	Class Map Fragments
+	BaseType "Mortal Grief"
+	SetBackgroundColor 70 20 20 255
+	SetFontSize 35
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	PlayAlertSound 3 300
  
 #Show
 #    LinkedSockets >= 4
@@ -2528,7 +2538,7 @@ Show
 	SetBorderColor 214 99 80
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
+	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Stygian Vise"
 	SetFontSize 40
 	SetBorderColor 255 255 255
 	PlayAlertSound 1 300
@@ -2536,6 +2546,7 @@ Show
 	
 Show
 	BaseType "Titan Gauntlets" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	SetFontSize 38
 
 Show
 	BaseType "Unset Ring"
@@ -2773,33 +2784,13 @@ Show
 	Identified True
 	SetFontSize 33
 	
-#Show
-#	Identified True
-#	SetFontSize 23
-	
-#Show
-Hide
-	Class "Body Armour" "Boots" "Gloves" "Helmet" "Shield" "Axe" "Bow" "Quiver" "Claw" "Dagger" "Mace" "Staves" "Sword" "Sceptre" "Wand" "Ring" "Amulet" "Belt"
-	Rarity Normal
-	SetFontSize 25
-	#SetFontSize 28
-	SetBackgroundColor 0 0 0 150
-	
-	
-#Show
-Hide
-	Class "Body Armour" "Boots" "Gloves" "Helmet" "Shield" "Axe" "Bow" "Quiver" "Claw" "Dagger" "Mace" "Staves" "Sword" "Sceptre" "Wand" "Ring" "Amulet" "Belt"
-	Rarity Magic
-	SetFontSize 25
-	#SetFontSize 28
-	SetBackgroundColor 0 0 0 200
 	#Caustic Arrow +2
-Show
-	Rarity Magic
-	BaseType "Short Bow"
-	ItemLevel >= 64
-	SetFontSize 35
-	SetBackgroundColor 0 0 0 255
+#Show
+#	Rarity Magic
+#	BaseType "Short Bow"
+#	ItemLevel >= 64
+#	SetFontSize 35
+#	SetBackgroundColor 0 0 0 255
 	
 #Starter ES stuff
 Show
@@ -2856,6 +2847,30 @@ Show
 	Class "Flask"
 	Rarity Normal Magic
 	SetFontSize 20
+	SetBackgroundColor 0 0 0 200
+	
+	#Show
+#	Identified True
+#	SetFontSize 23
+
+	
+#Show
+Hide
+	Class "Body Armour" "Boots" "Gloves" "Helmet" "Shield" "Axe" "Bow" "Quiver" "Claw" "Dagger" "Mace" "Staves" "Sword" "Sceptre" "Wand" "Ring" "Amulet" "Belt"
+	Rarity Normal
+	ItemLevel >= 45
+	SetFontSize 25
+	#SetFontSize 28
+	SetBackgroundColor 0 0 0 150
+	
+	
+#Show
+Hide
+	Class "Body Armour" "Boots" "Gloves" "Helmet" "Shield" "Axe" "Bow" "Quiver" "Claw" "Dagger" "Mace" "Staves" "Sword" "Sceptre" "Wand" "Ring" "Amulet" "Belt"
+	Rarity Magic
+	ItemLevel >= 45
+	SetFontSize 25
+	#SetFontSize 28
 	SetBackgroundColor 0 0 0 200
 
 #Debug Mode
