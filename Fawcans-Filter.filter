@@ -1,7 +1,9 @@
 Show
     Class "Quest Items"
-	SetTextColor 241 196 15
-	SetBorderColor 241 196 15
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 241 196 15
+	SetFontSize 40
 	
 #League things	
 Show
@@ -25,6 +27,20 @@ Show
 	SetTextColor 0 0 0
 	SetBackgroundColor 175 96 37 255
 	SetFontSize 45
+
+
+
+
+
+Show
+	BaseType "Bestiary Orb"
+	SetTextColor 0 0 0
+	SetBackgroundColor 255 255 255
+
+Show
+	BaseType "Imprinted Bestiary Orb"
+	SetTextColor 0 0 0
+	SetBackgroundColor 255 255 255
 	
 #Abyss Jewels
 Show
@@ -47,6 +63,15 @@ Show
 	
 Show
 	BaseType "Stygian Vise"
+	Rarity Unique
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetBackgroundColor 230 126 34 255
+	SetFontSize 40
+	PlayAlertSound 1 300
+	
+Show
+	BaseType "Stygian Vise"
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
 	SetBackgroundColor 52 73 94 255
@@ -54,7 +79,37 @@ Show
 	PlayAlertSound 1 300
 
 #Special Items
+
 Show
+	Rarity "Unique"
+	ElderItem True
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetBackgroundColor 230 126 34
+	SetFontSize 40
+	PlayAlertSound 1 300
+
+Show
+	BaseType "Infernal Sword" "Ruby Flask"
+	Rarity "Unique"
+	ShaperItem True
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	SetBackgroundColor 175 96 37 255
+	SetFontSize 45
+	PlayAlertSound 6 300
+
+Show
+	Rarity "Unique"
+	ShaperItem True
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetBackgroundColor 175 96 37 255
+	SetFontSize 40
+	PlayAlertSound 1 300
+
+Show
+	Rarity "Rare"
 	ElderItem True
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
@@ -63,6 +118,7 @@ Show
 	PlayAlertSound 1 300
 
 Show
+	Rarity "Rare"
 	ShaperItem True
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
@@ -253,7 +309,7 @@ Show
     SetBackgroundColor 231 76 60
     SetBorderColor 255 255 255
 	SetFontSize 45
-    PlayAlertSound 4 300
+    PlayAlertSound 6 300
 
 Show
     BaseType "Divine Orb" 
@@ -270,14 +326,14 @@ Show
     PlayAlertSound 10 300
 	
 Show
-    BaseType "Chaos Orb" "Stacked Deck" "Divine Vessel" "Ancient Orb"
+    BaseType "Chaos Orb" "Stacked Deck" "Ancient Orb"
     SetBorderColor 231 76 60
     SetTextColor 231 76 60
 	SetFontSize 40
     PlayAlertSound 10 300
 	
 Show
-	BaseType "Gemcutter's Prism" "Vaal Orb"
+	BaseType "Gemcutter's Prism" "Vaal Orb" "Divine Vessel" 
 	SetTextColor 224 86 69
 	SetFontSize 36
 	PlayAlertSound 1 300
@@ -332,6 +388,44 @@ Show
 	SetBorderColor 178 147 120
 	SetFontSize 38
 
+#Bestiary
+
+Show #T7
+	BaseType "Simple Steel Net"
+	SetFontSize 20
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 247 244 230
+
+Hide #8
+	BaseType "Reinforced Steel Net"
+	SetFontSize 30
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 252 246 217 180
+
+Show #9
+	BaseType "Strong Steel Net"
+	SetFontSize 35
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 243 183 220
+
+Show #10
+	BaseType "Thaumaturgical Net"
+	SetFontSize 40
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 246 229 141
+	PlayAlertSound 1 300
+
+Show #11
+	BaseType "Necromancy Net"
+	SetFontSize 40
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 252 229 108
+	PlayAlertSound 1 300
 
 #---------------------------------------
 	
@@ -394,7 +488,7 @@ Show
 	SetTextColor 200 200 200
 	SetBorderColor 200 200 200
 	SetFontSize 45
-	SetBackgroundColor 51 51 51 255
+	SetBackgroundColor 21 51 51 255
 
 #-------------
 #-- Chayula --
@@ -640,7 +734,12 @@ Show
 Show
 	BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap"
 
-	
+Show
+	BaseType "Net"
+	SetFontSize 40
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
 	
 Show
 	Class Currency 
@@ -690,32 +789,33 @@ Show
 #T1 uniques
 Show
 	Rarity Unique
-	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Ruby Flask" "Gold Ring" "Sorcerer Boots" "Charan's Sword" "Prismatic Jewel"
+	BaseType "Occultist's Vestment" "Glorious Plate" "Prophecy Wand" "Sapphire Flask" "Ruby Flask" "Sorcerer Boots" "Charan's Sword" "Prismatic Jewel"
 	SetFontSize 45
 	SetBorderColor 175 96 37 255
 	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 2 300
+	PlayAlertSound 6 300
 
 #Unique cont.
 Show
 	Rarity Unique
-	BaseType "Rawhide Tower Shield" "Ritual Sceptre" "Two-Stone Ring" "Deicide Mask" "Crusader Boots" "Lacquered Garb" "Full Wyrmscale"
+	BaseType "Rawhide Tower Shield" "Crusader Boots"
 	SetFontSize 45
 	SetBorderColor 175 96 37 255
 	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 2 300
+	PlayAlertSound 6 300
 
 #Pretty good uniques
 Show
 	Rarity Unique
-	BaseType "Vaal Sceptre" "Abyssal Axe" "Gold Amulet" "Titan Greaves" "Jewelled Foil" "Opal Sceptre"
+	BaseType "Gold Ring" "Full Wyrmscale" "Two-Stone Ring" "Vaal Sceptre" "Abyssal Axe" "Gold Amulet" "Titan Greaves" "Jewelled Foil" "Opal Sceptre" "Ebony Tower Shield" "Goathide Boots" "Lacquered Garb" "Deicide Mask" "Ritual Sceptre"
 	SetTextColor 0 0 0
 	SetBorderColor 0 0 0
 	SetBackgroundColor 175 96 37 255
 	SetFontSize 40
 	PlayAlertSound 3 300
 
-
+Show
+	Class "Currency"
 
 #"Mosaic Kite Shield" 
 
@@ -742,19 +842,19 @@ Show
 	SocketGroup WWWWWW
 	BaseType "Simple Robe"
 	Rarity Unique
-	PlayAlertSound 6 300
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
 	SetBackgroundColor 175 96 37 255
-	SetBorderColor 255 150 000 255
-	SetTextColor 0 0 0 255
-	SetFontSize 43
+	SetFontSize 40
+	PlayAlertSound 3 300
 	
 Show
     LinkedSockets 6
-	SetTextColor 0 0 0
-	SetBorderColor 0 0 0
-	SetBackgroundColor 142 68 255
+	SetTextColor 255 255 255
+	SetBorderColor 255 255 255
+	SetBackgroundColor 30 39 46 255
 	SetFontSize 45
-    PlayAlertSound 1 300
+    PlayAlertSound 3 300
 Show
     LinkedSockets 5
 	SetFontSize 45
@@ -778,12 +878,12 @@ Show
 	#Chance items 6socket ilvl
 Show
 	Rarity Normal
-    BaseType "Occultist's Vestment" "Glorious Plate" "Full Wyrmscale"
+    BaseType "Leather Belt"
     ItemLevel >= 50
     SetBorderColor 150 0 150
 	SetFontSize 40
 
-	#"Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" "Jewelled Foil" "Gavel" "Stone Hammer" "Leather Belt" "Mosaic Kite Shield"
+	#"Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" "Jewelled Foil" "Gavel" "Stone Hammer" "Leather Belt" "Mosaic Kite Shield" "Occultist's Vestment" "Glorious Plate" 
 	
 #Show
 #	Rarity Rare
@@ -808,6 +908,27 @@ Hide
 	Class "Divination Card"
 	BaseType "Carrion Crow"
 	
+#Top tier. 30c+
+Show
+    Class "Divination"
+	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "Hunter's Reward" "The Queen" "The Immortal" "Pride Before the Fall" "Mawr Blaidd"
+    SetFontSize 45
+    SetBorderColor 0 0 0
+    SetBackgroundColor 192 252 248 255
+    SetTextColor 0 0 0
+    PlayAlertSound 6 300
+
+    #Top tier. 30c+
+Show
+    Class "Divination"
+	BaseType "The World Eater" "The Iron Bard" "The King's Heart" "The Offering" 
+    SetFontSize 45
+    SetBorderColor 0 0 0
+    SetBackgroundColor 192 252 248 255
+    SetTextColor 0 0 0
+    PlayAlertSound 6 300
+
+
 #Mid tier. 10c - 29c
 Show
 	Class "Divination"
@@ -820,45 +941,38 @@ Show
 #Mid tier cont.
 Show
 	Class "Divination"
-	BaseType "The Artist" "Bowyer's Dream" "The Sun" "Left to Fate" "No Traces"
+	BaseType "The Artist" "Bowyer's Dream" "Left to Fate" "No Traces" "The Breach" "The Dreamer" "The Obscured" "Blessing of God" "The Puzzle"
 	SetFontSize 40
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
 	PlayAlertSound 3 300
-	
-#Mid tier. Good cards.
+#Mid tier cont.
 Show
 	Class "Divination"
-	BaseType "The Formless Sea" "The Thaumaturgist" "The Wolven King's Bite" "Heterochromia" "The Enlightened" "The Polymath" "The Sephirot" "The Valkyrie" "The Fletcher" "The Saint's Treasure"
+	BaseType "The Formless Sea" "The Thaumaturgist" "The Wolven King's Bite" "Heterochromia" "The Enlightened" "The Polymath" "The Sephirot" "The Valkyrie"
 	SetFontSize 40
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
 	PlayAlertSound 3 300
-Show #Cont
-	Class "Divination"
-	BaseType "The Ethereal" "The Offering" "The Dapper Prodigy" "The Void" "The Vast" "Chaotic Disposition" "Lucky Deck" "The Cartographer" "The Risk" "Time-Lost Relic"
-	SetFontSize 40
-	SetTextColor 192 252 248
-	SetBorderColor 192 252 248
-	PlayAlertSound 3 300
-Show #Cont
-	Class "Divination"
-	BaseType "The Risk" "The Stormcaller" "The Valley of Steel Boxes" "The Hoarder" "Emperor of Purity" "The Chains that Bind" 
-	SetFontSize 40
-	SetTextColor 192 252 248
-	SetBorderColor 192 252 248
-	PlayAlertSound 3 300
-	
-	
-#Top tier. 30c+
+#Mid tier cont.
 Show
-    Class "Divination"
-	BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "Hunter's Reward" "The Queen" "The Immortal" "Pride Before the Fall" "Mawr Blaidd" "The King's Heart"
-    SetFontSize 45
-    SetBorderColor 0 0 0
-    SetBackgroundColor 192 252 248 255
-    SetTextColor 0 0 0
-    PlayAlertSound 6 300
+	Class "Divination"
+	BaseType "The Ethereal" "The Dapper Prodigy" "The Void" "The Vast" "Chaotic Disposition" "Lucky Deck" "The Cartographer" "Time-Lost Relic"
+	SetFontSize 40
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+	PlayAlertSound 3 300
+#Mid tier cont.
+Show #Cont
+	Class "Divination"
+	BaseType "The Risk" "The Valley of Steel Boxes" "The Hoarder" "Emperor of Purity" "The Chains that Bind" "The Saint's Treasure"
+	SetFontSize 40
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+	PlayAlertSound 3 300
+	
+	
+
 
 	
 #The rest
@@ -884,6 +998,20 @@ Show
 	SetFontSize 40
 	SetTextColor 46 204 113
 	PlayAlertSound 1 300
+
+Show
+    Class Gem
+    Quality = 0
+    SetTextColor 46 204 113
+	SetFontSize 30
+
+Show
+    Class Gem
+    Quality <= 9
+    SetBorderColor 46 204 113
+    SetTextColor 46 204 113
+	SetFontSize 30
+
 
 Show
     Class Gem
@@ -1238,14 +1366,14 @@ Show # Maps:T15
 #----- Maps -----
 #----------------
 
-#Show # Maps:T13 - Desert Springs
-    #Class Maps 
-    #BaseType "Desert Springs"
-    #SetFontSize 44 
-	#SetBackgroundColor 172 37 23 255
-	#SetTextColor 0 0 0
-	#SetBorderColor 0 0 0
-    #PlayAlertSound 3 200 
+Show # Maps:T13 - Desert Springs
+    Class Maps 
+    BaseType "Desert Spring"
+    SetFontSize 44 
+	SetBackgroundColor 172 37 23 255
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+    PlayAlertSound 3 200 
 
 Show # Maps:14 - Crimson Temple
     Class Maps 
@@ -1540,16 +1668,25 @@ Show
 	SetBorderColor 214 99 80
 
 Show
-	BaseType "Steel Ring" "Opal Ring" "Crystal Belt"
-	SetFontSize 40
-	SetBorderColor 255 255 255
+	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
+	Rarity "Unique"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 175 96 37 255
+
+Show
+	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet"
+	SetFontSize 45
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
 	PlayAlertSound 1 300
 	
 
-
 	
 Show
-	BaseType "Titan Gauntlets" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
 	SetFontSize 38
 
 Show
@@ -1737,9 +1874,6 @@ Show
 #	SetFontSize 25
 #	SetBackgroundColor 0 0 0 255
 
-	
-Show
-	Class "Currency"
 	
 Show
 	Rarity Unique
@@ -2929,3 +3063,4 @@ Hide
 	#SetFontSize 45
 	#SetTextColor 255 0 255 255           # TEXTCOLOR:	 SAFETY LINE
 	#SetBorderColor 255 0 255 255         # BORDERCOLOR:	 SAFETY LINE
+
