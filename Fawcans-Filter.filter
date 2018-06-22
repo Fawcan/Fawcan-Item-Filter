@@ -28,8 +28,12 @@ Show
 	SetBackgroundColor 175 96 37 255
 	SetFontSize 45
 
-
-
+Show
+	BaseType "Vial"
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetBackgroundColor 241 196 15
+	SetFontSize 35
 
 
 Show
@@ -326,7 +330,7 @@ Show
     PlayAlertSound 10 300
 	
 Show
-    BaseType "Chaos Orb" "Stacked Deck" "Ancient Orb"
+    BaseType "Chaos Orb" "Stacked Deck" "Ancient Orb" "Stone of Passage" "Flashpowder Keg"
     SetBorderColor 231 76 60
     SetTextColor 231 76 60
 	SetFontSize 40
@@ -876,12 +880,12 @@ Show
 	SetFontSize 40
 
 	#Chance items 6socket ilvl
-Show
-	Rarity Normal
-    BaseType "Leather Belt"
-    ItemLevel >= 50
-    SetBorderColor 150 0 150
-	SetFontSize 40
+#Show
+#	Rarity Normal
+#    BaseType "Leather Belt"
+#    ItemLevel >= 50
+#    SetBorderColor 150 0 150
+#	SetFontSize 40
 
 	#"Gavel" "Rock Breaker" "Spine Bow" "Desert Brigandine" "Jewelled Foil" "Gavel" "Stone Hammer" "Leather Belt" "Mosaic Kite Shield" "Occultist's Vestment" "Glorious Plate" 
 	
@@ -921,7 +925,7 @@ Show
     #Top tier. 30c+
 Show
     Class "Divination"
-	BaseType "The World Eater" "The Iron Bard" "The King's Heart" "The Offering" 
+	BaseType "The World Eater" "The Iron Bard" "The King's Heart" "The Offering" "Immortal Resolve" "The Master" "The Mayor" "The Samurai's Eye"
     SetFontSize 45
     SetBorderColor 0 0 0
     SetBackgroundColor 192 252 248 255
@@ -966,6 +970,24 @@ Show
 Show #Cont
 	Class "Divination"
 	BaseType "The Risk" "The Valley of Steel Boxes" "The Hoarder" "Emperor of Purity" "The Chains that Bind" "The Saint's Treasure"
+	SetFontSize 40
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+	PlayAlertSound 3 300
+
+#3.3 new cards, need tier grouping
+Show #Cont
+	Class "Divination"
+	BaseType "The Hale Heart" "The Undisputed" "Harmony of Souls" "The Admirer" "The Beast" "The Celestial Stone" "The Darkest Dream" "The Dreamland"
+	SetFontSize 40
+	SetTextColor 192 252 248
+	SetBorderColor 192 252 248
+	PlayAlertSound 3 300
+
+#3.3 new cards, need tier grouping
+Show #Cont
+	Class "Divination"
+	BaseType "The Fathomless Depths" "The Jeweller's Boon" "The Professor" "The Undaunted"
 	SetFontSize 40
 	SetTextColor 192 252 248
 	SetBorderColor 192 252 248
@@ -1992,9 +2014,9 @@ Show
 	SetFontSize 20
 	SetBackgroundColor 0 0 0 200
 	
-	#Show
-#	Identified True
-#	SetFontSize 23
+Show
+	Identified True
+	SetFontSize 23
 
 #--------------------------------------------------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------------------------------------------------
